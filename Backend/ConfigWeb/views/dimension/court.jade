@@ -1,0 +1,41 @@
+extend ../layout
+
+block content
+
+  div#tabMeeting(role='tabpanel')
+    div(id="tabShow",style="display:none")= id
+    div.tab-content.tabWhite
+      div.tab-pane.active(role="tabpanel", id="meetingList")
+        div.panel.panel50
+          label#name.label.label-primary(style="margin-right:10px")= name
+          button.btn.btn-default.pull-right(onclick="back()" style="margin-top:10px") 返回
+        div.row
+          div.col-sm-8
+            div#tree
+            p
+              button.btn.btn-primary.btn-xs(onclick="add()") 增加节点
+              button.btn.btn-success.btn-xs(onclick="if(tv.selected){tv.selected.edit();}") 编辑节点
+              button.btn.btn-danger.btn-xs(onclick="if(tv.selected)tv.selected.remove()") 删除选中节点
+              button.btn.btn-info.btn-xs#saveDim(title="add") 保存
+          div#show.col-sm-3
+            div.col-sm-12#treeName 新建节点
+            div.col-sm-12.key
+              div.col-sm-4 名称：
+              div.col-sm-8
+                input.form-control#key
+            div.col-sm-12
+              div.col-sm-4 编码：
+              div.col-sm-8
+                input.form-control#cord
+            button#saveCourt.btn.btn-primary 保存
+  block script
+    script(src="/js/meetingModel/paint.js",type="text/javascript")
+    script(src="/js/meetingModel/add.js",type="text/javascript")
+
+
+
+
+
+
+
+

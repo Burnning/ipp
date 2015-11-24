@@ -1,0 +1,51 @@
+//
+   Created by tommy_2 on 2015/11/13.
+extend ../layout
+
+block content
+  #meetingModal.modal.fade(tabindex='-1',role='dialog', aria-labelledby="meetingLabel",aria-hidden="true")
+    div.modal-dialog.modal-xs
+      div.modal-content
+        div.modal-body
+          div.row
+            div.col-sm-2.col-sm-offset-2
+              div.input-group(style="margin-bottom:20px")
+                span
+                  b 描述：
+              div.input-group(style="margin-top:5px;margin-bottom:20px")
+                span
+                  b 名称：
+            div.col-sm-5
+              input#dimAlias.form-control(style="margin-bottom:7px")
+              input#dimName.form-control(style="margin-bottom:7px")
+            div.col-sm-7.col-sm-offset-5
+              label.label.label-danger#showMess
+        div.modal-footer
+          div.row
+            div.btn-group.col-sm-offset-4
+              button.btn.btn-default#saveTem 保存
+              button.btn.btn-default(data-dismiss="modal") 关闭
+
+  div.tab-content.tabWhite
+    div.tab-pane.active
+      div.panel.panel50
+        button.btn.btn-primary(data-toggle="modal" data-target="#meetingModal" data-backdrop="static") 新建
+      table.table.table-striped#dimension
+        thead
+          tr
+            th(style="width:30%") 名称
+            th(style="width:30%") 描述
+            th(style="width:40%")
+        tbody
+          each item,index in models||[]
+            tr
+              td=item.key
+              td=item.name
+              td
+                button.btn.btn-primary.btn-xs(data-toggle="modal" data-target="#meetingModal" data-backdrop="static" data-id="#{item.id}" data-type="edit" data-html="#{item.name}/#{item.description}/#{item.type}") 修改
+                button.btn.btn-info.btn-xs(onclick="forward('/dimension/court?id=#{item.id}&&name=#{item.name}')") 子项
+                button.btn.btn-danger.btn-xs(onclick="del('#{item.id}')") 删除
+
+block script
+  script(type='text/javascript',src='/js/meetingModel/index.js')
+

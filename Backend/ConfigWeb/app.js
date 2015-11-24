@@ -1,9 +1,7 @@
 var express = require('express');
-var favicon = require('serve-favicon');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
-var flash = require("connect-flash");
 
 global.path = require('path');
 global.config = require('./package').config;
@@ -15,9 +13,14 @@ global.util =require('util');
 global.dirPath = __dirname;
 global.async = require('async');
 global.requestClient = require('request-json');
+global.tempSource = [];
 
 var routes = require('./routes/index');
-var meeting = require('./routes/meeting');
+var dimension = require('./routes/dimension');
+var pattern = require('./routes/pattern');
+var param = require('./routes/param');
+var source = require('./routes/source');
+var datatype = require('./routes/datatype');
 
 var app = express();
 
@@ -25,8 +28,6 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 // uncomment after placing your favicon in /public
-app.use(flash());
-app.use(favicon(__dirname + '/public/img/favicon.png'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -49,7 +50,11 @@ app.use(function(req, res, next) {
 });
 
 app.use('/', routes);
-app.use('/meeting', meeting);
+app.use('/dimension', dimension);
+app.use('/pattern', pattern);
+app.use('/param',param);
+app.use('/source',source);
+app.use('/datatype',datatype);
 // error handlers
 
 // development error handler

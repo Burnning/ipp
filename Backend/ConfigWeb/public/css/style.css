@@ -1,21 +1,26 @@
 body {
   /*padding: 50px;*/
   font-size: 16px;
-  font-family: "Microsoft YaHei", "微软雅黑", Arial, Helvetica, sans-serif;
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
   background-color: #f9f9f9;
   /*overflow: hidden;*/
 }
 
 .logobg{
-    background-image:-moz-linear-gradient(top,#333366,#38434f);
-    background-image:-o-linear-gradient(top,#333366,#38434f);
-    background-image:-ms-linear-gradient(top,#333366,#38434f);
-    background-image:-webkit-linear-gradient(top,#330033,#38434f);
-    border-bottom:1px solid #eee;
+    background-color: rgb(34,34,34);
+    height: 50px;
+    color: #ffffff;
+    line-height: 50px;
+}
+.logobg .spanT{
+    margin-left: 100px;
+    font-size: 30px;
+}
+.logobg .spanP{
+    margin-left: 50px;
+    font-size: 20px;
 }
 .panel50{
-    /*box-shadow: 0 1px 0 2px rgba(0,0,0,0.1);*/
-    /*background-color:#f9f9f9 ;*/
     height: 60px;
     line-height: 55px;
     padding-left: 10px;
@@ -49,10 +54,6 @@ body {
     color: #38444d;
     font-weight: bold;
     border-radius: 5px 5px 0 0;
-}
-.logo{
-    /*height:100px;*/
-    padding:10px;
 }
 .action {
     background-color: #f9f9f9;
@@ -103,23 +104,10 @@ table caption, .title, .caption{
     border: 1px solid #ddd;
     border-top: 0;
     padding:10px 20px;
-}
-#tabMeeting .nav{
-    background-color:#38444d;
-    border-radius: 3px;
+    max-height: 900px;
+    overflow-y: auto;
 }
 
-#tabMeeting ul li a, ul.commentImageContainer li{
-    color: #fff;
-    padding: 6px 15px;
-    font-size: 20px;
-}
-#tabMeeting ul li.active a{
-    color: #38444d;
-}
-#tabMeeting ul li a:hover{
-    color: gray;
-}
 .list-group li, .currentAgenda{
     list-style-type:none;
     text-indent: 8px;
@@ -138,171 +126,6 @@ table caption, .title, .caption{
     border-bottom: 1px solid #000000;
     padding: 0 5px;
     overflow: hidden;
-}
-
-.divFilter ul {
-    margin-bottom: 0;
-}
-
-/*.filelist li{*/
-    /*list-style-type:none;*/
-    /*float: left;*/
-    /*height: 100px;*/
-    /*width: 80px;*/
-    /*margin: 10px;*/
-    /*padding:5px;*/
-    /*border: 1px solid #78A4DD;*/
-    /*position: relative;*/
-    /*background-image: url("../img/pdf.jpg");*/
-    /*background-position: top;*/
-/*}*/
-.filelist li{
-    list-style-type:none;
-    float: left;
-    height: 100px;
-    width: 80px;
-    margin: 10px;
-    padding:5px;
-    border: 1px solid #78A4DD;
-    position: relative;
-    cursor: default;
-    background-image: url("/img/pdf.png");
-}
-/*.filelist li div {*/
-    /*display: block;*/
-    /*width: 70px;*/
-    /*height: 15px;*/
-    /*bottom: 0;*/
-    /*left: 0;*/
-    /*position: absolute;*/
-    /*text-align: left;*/
-    /*word-break: keep-all;*/
-    /*white-space: nowrap;*/
-    /*overflow: hidden;*/
-    /*text-overflow: ellipsis;*/
-    /*color: white;*/
-    /*cursor: default;*/
-/*}*/
-.filelist li input{
-    bottom: 0;
-    right: 0;
-    position: absolute;
-}
-.wordDiv{
-    word-break:break-word;
-    font-size: 12px;
-    word-wrap: break-word;
-    text-indent: 25px;
-}
-.glyphicon-position{
-    position: absolute;
-    top: 5px;
-    left:10px;
-    color:#686869;
-}
-.imgShow{
-    /*width:200px;*/
-    height:100px;
-}
-
-.redCircle{
-    background-color: red;
-    color:#fff;
-    float:left;
-    opacity: 1;
-    text-shadow:0;
-    font-size: 18px;
-    z-index: 100000;
-    position:absolute;
-    border: 1px solid #eee;
-}
-
-/*#tabMeeting .nav-tabs>li>a:hover {*/
-    /*color:#fff;*/
-    /*background-color: #38444d;*/
-    /*border:0;*/
-/*}*/
-/*#tabMeeting .nav-tabs>li.active>a:hover{*/
-    /*color:#38444d;*/
-    /*background-color: #fff;*/
-    /*border-bottom:2px solid #fff;*/
-/*}*/
-
-.guideHeader {
-    padding:20px 0 0 0;
-    /*height:150px;*/
-    /*line-height: 150px;*/
-    font-size: 16px;
-    font-weight: bold;
-    color: #999;
-    font-family: "微软雅黑","华文细黑","黑体",arial;
-}
-.guideHeader .text-center{
-    border-bottom: 2px solid #ccc;
-    height: 45px;
-    line-height: 45px;
-}
-.guideHeader .badge{
-    font-size: 15px;
-    margin-right: 8px;
-}
-.guideHeader div.active {
-    color: #3E3E3E;
-    border-bottom: 2px solid #FF4700;
-}
-.guideHeader div.active .badge{
-   background-color: #FF4700;
-}
-
-.guideFooter{
-    padding: 15px 0;
-}
-
-.guideFooter button{
-    width: 100px;
-}
-.guideContainer{
-    border: 1px solid #eee;
-    background-color: #fff;
-    padding:10px;
-
-}
-.minHeight{
-    overflow-y:auto ;
-    min-height: 390px;
-    height: 390px;
-}
-.minHeight2{
-    min-height: 500px;
-    height: 500px;
-}
-.minHeight3{
-    overflow-y:auto ;
-    min-height: 440px;
-    height: 440px;
-    border-right: 1px solid #000000;
-    border-bottom: 1px solid #000000;
-}
-.border-left{
-    border-left: 1px solid #000000;
-}
-
-.btnMove{
-    width: 100px;
-    /*font-weight: bolder;*/
-    margin-top: 5px;
-}
-
-.circle{
-    background-color: #fff;
-    color: #d9534f;
-    position: absolute;
-    top: -7px;
-    left: -10px;
-    border: 1px solid #bbb;
-    padding: 3px 4px;
-    cursor: pointer;
-    z-index: 5;
 }
 
 .footer{
@@ -358,4 +181,151 @@ table caption, .title, .caption{
     float: left;
     top: 10px;
     left: 10px;
+}
+#dimension th{
+   text-align: center;
+}
+#dimension{
+    text-align: center;
+}
+#treeName{
+    background-color: grey;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    height: 30px;
+    line-height: 30px;
+}
+.enumName{
+    width: 250px;
+    margin-top: -42px;
+    margin-left: 200px;
+    position: relative;
+}
+.enumCode{
+    width: 250px;
+    margin-top: -43px;
+    margin-left: 200px;
+    position: relative;
+}
+.pattern{
+    position: absolute;
+    right: 100px;
+    left: 100px;
+    top: 100px;
+    height: 700px;
+    border: 1px solid #ddd;
+}
+.layout{
+    position: absolute;
+    left: 0;
+    width: 35%;
+    top: 70px;
+    bottom: 0;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+}
+.window{
+    position: absolute;
+    left: 35%;
+    width: 35%;
+    top: 70px;
+    bottom: 0;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+}
+.model{
+    position: absolute;
+    left: 70%;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+    overflow-y: auto;
+}
+.Title{
+    position: absolute;
+    top: 0;
+    height: 70px;
+    background-color: rgba(111,111,111,1);
+    color: #ffffff;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.layTitle{
+    left: 0;
+    width: 35%;
+    border-right: 1px solid #eee;
+}
+.winTitle{
+    left: 35%;
+    width: 35%;
+    border-right: 1px solid #eee;
+}
+.modTitle{
+    left: 70%;
+    right: 0;
+}
+.span{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    font-size: 20px;
+}
+.key{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#pattern{
+    text-align: center;
+}
+#pattern th {
+    text-align: center;
+}
+#videoGroup{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    max-height: 500px;
+}
+#videoGroup .vGroup div{
+    margin-bottom: 10px;
+}
+.v_remove{
+    margin-top: 10px;
+}
+#selectType{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    border: 1px solid #ddd;
+    top: 30px;
+    left: 50px;
+    box-shadow: 10px 10px 20px #555;
+    z-index: 999;
+    background-color: rgba(255,255,255,1);
+}
+#saveType{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+#cancelType{
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+}
+#selectType div{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 20px;
+    left: 50px;
+    /*border: 1px solid #ddd;*/
+    overflow-y: auto;
+}
+#selectType table{
+
 }

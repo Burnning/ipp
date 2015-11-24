@@ -6,8 +6,8 @@
     "start": "node ./bin/www"
   },
    "author": {
-    "name": "Joan",
-    "email": "fuqiongyan@shgbit.com"
+    "name": "黄朝晖",
+    "email": "huangchaohui@shgbit.com"
   },
   "dependencies": {
     "body-parser": "~1.10.2",
@@ -15,34 +15,19 @@
     "debug": "~2.1.1",
     "express": "~4.11.1",
     "jade": "~1.9.1",
-    "serve-favicon": "~2.2.0",
     "log4js":"0.6.24",
-    "socket.io":"1.2.1",
     "bufferhelper":"0.2.0",
     "formidable":"1.0.17",
-    "mongoose": "3.8.21",
     "moment":"2.10.3",
-    "underscore":"1.8.3",
-    "filesize":"3.1.2",
-    "async":"1.0.0",
     "uuid":"2.0.1",
     "archiver":"0.14.4",
     "express-session":"1.11.3",
-    "connect-flash":"0.1.1",
     "request":"2.60.0",
     "request-json":"0.5.3"
   },
   "config":{
-    "ftpPath":"./resource",
-    "goServer":"192.168.16.142",
-    "fileServer":"192.168.16.142",
-    "filePort":"10086",
-    "meetingPort":"10011",
-    "votePort":"10017",
-    "webPort":"80",
-    "devicePort":"10018",
-    "attendeesPort":"10019",
-    "controlPort":"10016",
-    "nginxDownload":"/gbtouch/meetings"
+    "GBShowServerIP":"localhost",
+    "typeServicePort":"10024",
+    "webPort":"3001"
   }
 }

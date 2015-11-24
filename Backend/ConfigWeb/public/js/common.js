@@ -101,7 +101,7 @@ function d(config,cb){
 
 function postMeeting(mid){
     $.ajax({
-        url:'/meeting/complete/'+mid,
+        url:'/dimension/complete/'+mid,
         type:'post',
         dataType:'json',
         async:false,

@@ -1,0 +1,54 @@
+//
+   Created by tommy_2 on 2015/11/18.
+
+extend ../layout
+
+block content
+  #dataModal.modal.fade(tabindex='-1',role='dialog', aria-labelledby="meetingLabel",aria-hidden="true")
+    div.modal-dialog.modal-xs
+      div.modal-content
+        div.modal-body
+          div.row
+            div.col-sm-3.col-sm-offset-2
+              div.input-group(style="margin-top:5px;margin-bottom:20px")
+                span
+                  b 模型名：
+              div.input-group(style="margin-top:5px;margin-bottom:20px")
+                span
+                  b 数据类型：
+            div.col-sm-5
+              input#dataName.form-control(style="margin-bottom:7px")
+              select#dataChoose.form-control(style="margin-bottom:7px")
+                option(value=1) 数据接口
+                option(value=2) 自定义楼层
+            div.col-sm-12
+              div.col-sm-8.col-sm-offset-2.input-group#dataType
+                span.input-group-addon 指标名
+                input.form-control
+              div.col-sm-7.col-sm-offset-5
+                label.label.label-danger#showMess
+        div.modal-footer
+          div.row
+            div.btn-group.col-sm-offset-4
+              button.btn.btn-default#saveData 保存
+              button.btn.btn-default(data-dismiss="modal") 关闭
+  div.tab-content.tabWhite
+    div.tab-pane.active
+      div.panel.panel50
+        button.btn.btn-primary(data-toggle="modal" data-target="#dataModal" data-backdrop="static") 新建
+      table.table.table-striped#pattern
+        thead
+          tr
+            th(style="width:30%") 模型名
+            th(style="width:40%") 数据模型id
+            th(style="width:30%")
+        tbody#patternBody
+          each item,index in models||[]
+            tr
+              td.eName=item.name
+              td.eKey=item.data_model_id
+              td
+                button.btn.btn-primary.btn-xs(onclick="forward('/datatype/template?id=#{item.id}')") 修改
+                button.btn.btn-danger.btn-xs(onclick="del('#{item.id}')") 删除
+block script
+  script(type='text/javascript',src='/js/datatype/index.js')

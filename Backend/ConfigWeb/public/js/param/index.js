@@ -1,6 +1,9 @@
+/**
+ * Created by tommy_2 on 2015/11/17.
+ */
 $(function(){
-  setMenu("dim");
-  $("#meetingModal").on('show.bs.modal',function(e) {
+  setMenu("param");
+  $("#sourceModal").on('show.bs.modal',function(e) {
     $(this).find("#status").html("").css('display', 'none');
     var id = $(e.relatedTarget).data('id');
     var page = $(e.relatedTarget).data('type');
@@ -8,13 +11,19 @@ $(function(){
     if (page == 'edit') {
       $('#dimName').val(html.split("/")[0]);
       $('#dimAlias').val(html.split("/")[1]);
-      $("#saveTem").unbind('click').bind('click', function () {
+      if(html.split("/")[2] == 'true'){
+        $("#multiple").prop("checked",true);
+      }else{
+        $("#multiple").prop("checked",false);
+      }
+      $("#save").unbind('click').bind('click', function () {
         edit(id);
       });
     } else{
       $('#dimName').val("");
       $('#dimAlias').val("");
-      $("#saveTem").unbind('click').bind('click', function () {
+      $("#multiple").prop("checked",false);
+      $("#save").unbind('click').bind('click', function () {
         save();
       });
     }
@@ -32,13 +41,13 @@ function save() {
     $("#showMess").html("请填满选项");
     return
   }
-  var type = 0;
+  var mul = $("#multiple").prop("checked");
   var id;
   $.get("/dimension/id", function (data) {
     id = data;
     $.ajax({
-      data: {id: id, name: alias, alias: name, type: type},
-      url: '/dimension/type',
+      data: {id: id, name: alias, alias: name, type: 1,bool:mul},
+      url: '/param/add',
       type: 'post',
       dataType: 'json',
       async: false,
@@ -54,19 +63,10 @@ function save() {
 }
 function edit(id){
   var name = $("#dimName").val();
-  var eng = /^\w+$/;
-  if (!eng.test(name)) {
-    $("#showMess").html("名称不能输入中文");
-    return
-  }
   var alias = $("#dimAlias").val();
-  if (name.trimAll() == "" || alias.trimAll() == "") {
-    $("#showMess").html("请填满选项");
-    return
-  }
   $.ajax({
-    data: {id: id, name: name, alias: alias,type:0},
-    url: '/dimension/typeEdit/',
+    data: {id: id, name: alias, key: name,type:1},
+    url: '/param/edit/',
     type: 'post',
     dataType: 'json',
     async: false,
@@ -81,7 +81,7 @@ function edit(id){
 }
 function del(id){
   $.ajax({
-    url: '/dimension/type/' + id,
+    url: '/param/' + id,
     type:'delete',
     dataType:'json',
     async:false,

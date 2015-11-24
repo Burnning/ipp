@@ -71,7 +71,6 @@ function treeview(id,path,check,drag){
     }
   }
 }
-
 //event
 treeview.prototype.onnodeclick		= function(sender){return false;};
 treeview.prototype.onnodeexpand		= function(sender){};
@@ -80,7 +79,7 @@ treeview.prototype.onnodedblclick	= function(sender){sender.toggle();return fals
 treeview.prototype.onnodeafteredit	= function(sender,oldstr){};
 treeview.prototype.onnodebeforeedit = function(sender,oldstr,newstr){};
 treeview.prototype.onnodedrag		= function(from,to){};
-treeview.prototype.onnodekeydown	= function(sender,e){;
+treeview.prototype.onnodekeydown	= function(sender,e){
   var e=e||event;
   switch(e.keyCode){
     case 61:	//fx +
@@ -122,21 +121,24 @@ treeview.prototype.onnodekeydown	= function(sender,e){;
       break;
   }
 }
-treeview.prototype.onnodemousedown	= function(sender,e){}
-treeview.prototype.onnodemouseup	= function(sender,e){}
-treeview.prototype.oncontextmenu	= function(sender){}
-treeview.prototype.onnodecheck		= function(sender){}
-treeview.prototype.onselectchange	= function(before,after){}
+treeview.prototype.onnodemousedown	= function(sender,e){};
+treeview.prototype.onnodemouseup	= function(sender,e){};
+treeview.prototype.oncontextmenu	= function(sender){};
+treeview.prototype.onnodecheck		= function(sender){};
+treeview.prototype.onselectchange	= function(before,after){};
 
 //class node
-function node(caption,title,url,target,tag,callback){
+function node(caption,title,id,target,key,cord){
+  if(!target){
+    target = ""
+  }
   var me		= this;
   this.nodes	= new nodes();
 //		this.id		= getid();
   this.caption= caption;
-  this.title	= title?title:caption;
+//  this.title	= title?title:caption;
   this.parent = null;
-  this.tag	= tag?tag:"";
+//  this.tag	= tag?tag:"";
   this.loaded = false;
   this.level  = -1;
   this.isLast = false;
@@ -164,7 +166,7 @@ function node(caption,title,url,target,tag,callback){
 
     return a.substr(2,8) + "-" + b.substr(2,8) + "-" + c.substr(2,8) + "-" + d.substr(2,8);
   }
-  //node collection
+  //F collection
   function nodes(){
     var n = [];
     //get the lenght of the collection
@@ -172,7 +174,7 @@ function node(caption,title,url,target,tag,callback){
 
     this.toString = function(){
       return n.toString();
-    }
+    };
     //insert a node at index
     this.insert = function(index,oo){
       if(index>=0&&index<=n.length){
@@ -223,7 +225,6 @@ function node(caption,title,url,target,tag,callback){
           me.refresh(0);
         }
       }
-      create(oo);
       return me;
     };
     //add a node after the last node
@@ -232,6 +233,11 @@ function node(caption,title,url,target,tag,callback){
     }
     //remove a node by node
     this.remove = function(node){
+      if(node.lastChild() != null){
+        if(!confirm("删除此节点会导致删除该节点所有子节点，是否删除？")){
+          return;
+        };
+      };
       if(node){
         for(var i=0;i<n.length;i++){
           if(n[i] ==node){
@@ -239,7 +245,7 @@ function node(caption,title,url,target,tag,callback){
           }
         }
       }
-    }
+    };
     //remove a node at index
     this.removeAt = function(index){
       if(index>=0&&index<n.length){
@@ -284,7 +290,7 @@ function node(caption,title,url,target,tag,callback){
           me.refresh(0);
         }
       }
-    }
+    };
     this.removeChildren = function (){
       for(var i=n.length-1;i>=0;i--){
         var o = me.nodes.items[i];
@@ -300,29 +306,29 @@ function node(caption,title,url,target,tag,callback){
         }
       }
       n.length = 0;
-    }
+    };
     this.items = n;
   }
   this.add = function(oo){
     return this.nodes.add(oo);
-  }
+  };
   this.insert = function(index,oo){
     return this.nodes.insert(index,oo);
-  }
+  };
   this.remove = function(){
     this.parent.nodes.remove(this);
-  }
+  };
   //set the caption of the node
   this.setCaption = function(sText,sTitle){
     if(this.showed){
       var oNode = this.textNode;
       if(oNode){
         oNode.firstChild.innerHTML	= sText;
-        oNode.title					= typeof(sTitle)!="undefined"?sTitle:sText;
+//        oNode.title					= typeof(sTitle)!="undefined"?sTitle:sText;
       }
     }
     this.caption = sText;
-  }
+  };
   //get then deepth of the node
   this.deepth = function(){
     var i = -1;
@@ -333,7 +339,7 @@ function node(caption,title,url,target,tag,callback){
     }while(p!=null);
 
     return i;
-  }
+  };
   //get root node
   this.root = function(){
     var p = me;
@@ -345,7 +351,7 @@ function node(caption,title,url,target,tag,callback){
       }
     }while(p!=null);
     return p;
-  }
+  };
 
   this.toString = function(tv){
 
@@ -384,15 +390,19 @@ function node(caption,title,url,target,tag,callback){
     fIcon.onclick	= function(e){ me.select();return treeview.prototype.onnodeclick(me);};
     fIcon.ondblclick= function(e){ return treeview.prototype.onnodedblclick(me);};
 
+//    var id;
+      var eText = document.createElement("span");
+      oNode.appendChild(eText);
+      var eA = document.createElement("a");
+      eText.appendChild(eA);
+//      id = data;
+//    });
 
-    var eText			= document.createElement("span");
-    oNode.appendChild(eText);
-    var eA				= document.createElement("a");
-    eText.appendChild(eA);
 
     eA.innerHTML	= me.caption?me.caption	:"";
     eA.target		= me.target?me.target	:"";
     eA.href			= me.action?me.action	:"";
+    eA.title = target;
     eA.onkeydown	= function(e){ return treeview.prototype.onnodekeydown(me,e);}
     eA.ondblclick	= function(e){ return treeview.prototype.onnodedblclick(me);}
     eA.onmousedown  = function(e){ return treeview.prototype.onnodemousedown(me)}
@@ -407,14 +417,22 @@ function node(caption,title,url,target,tag,callback){
       }
       if(before!=me)treeview.prototype.onselectchange(before,me);
       me.select();
-    }
+    };
 
     eA.ondragstart	= function(e){if(control.drag){var oData = window.event.dataTransfer;oData.effectAllowed = "move";oData.dropEffect ="none";control.dragFrom = me;control.dragTo=null;}}
-    eA.ondragenter 	= function(e){if(control.drag){control.dragTo = me;me.select();}}
+    eA.ondragenter 	= function(e){if(control.drag){control.dragTo = me;me.select();}};
     eA.ondragend	= function(e){if(control.drag){if(control.dragFrom!=control.dragTo&&control.dragTo!=null){treeview.prototype.onnodedrag(control.dragFrom,control.dragTo);}}}
     eText.className = "Node-unselect";
-    eText.title		= me.title;
-    eText.ondragover= function(e){if(control.drag){var oEvent = window.event;oEvent.returnValue = false;}}
+    eText.title	= key;
+    if(id){
+      eText.id = id;
+    }else{
+      $.get("/dimension/id",function(data) {
+        eText.id = data;
+      });
+    }
+
+    eText.ondragover= function(e){if(control.drag){var oEvent = window.event;oEvent.returnValue = false;}};
 
     me.container.style.display = me.opened?"":"none";
 
@@ -427,7 +445,7 @@ function node(caption,title,url,target,tag,callback){
     this.textNode	= eText;
 
     return oNode;
-  }
+  };
   this.edit = function(){
 
     if(control.selected!=this)this.select();
@@ -461,22 +479,23 @@ function node(caption,title,url,target,tag,callback){
 
       me.textNode.style.display	= "";
       me.textNode.className = "Node-selected";
+      show(me.textNode);
 
       //fire the event
       treeview.prototype.onnodeafteredit(this,oldText,newText);
 
       me.select();
-    }
+    };
 
     o.onkeypress = function(e){
       var e = e||event;
       if(e.keyCode==13){
         o.blur();
       }
-    }
-    try{o.scrollIntoView(false)}catch(e){};
+    };
+    try{o.scrollIntoView(false)}catch(e){}
     o.select();
-  }
+  };
 
   //expand the node
   this.expand = function(){
@@ -511,7 +530,7 @@ function node(caption,title,url,target,tag,callback){
     //}
     this.container.style.display = "none";
     this.refresh(0);
-  }
+  };
   this.toggle = function(){
     if(this.nodes.length>0){
       if(!this.opened){
@@ -520,7 +539,7 @@ function node(caption,title,url,target,tag,callback){
         this.collapse();
       }
     }
-  }
+  };
   //node is my parent
   this.isParent = function(node){
     var p = me.parent;
@@ -531,7 +550,7 @@ function node(caption,title,url,target,tag,callback){
       p = p.parent;
     }
     return false;
-  }
+  };
   this.setIndent = function(level,value){
     this.indent[level] = value;
     for(var i=0;i<this.nodes.length;i++){
@@ -546,7 +565,7 @@ function node(caption,title,url,target,tag,callback){
       }
       this.nodes.items[i].setIndent(level,value);
     }
-  }
+  };
   this.select = function(){
     if(this.parent){
       this.parent.expand();
@@ -555,20 +574,20 @@ function node(caption,title,url,target,tag,callback){
     var oNode = this.textNode;
     if(oNode){
       oNode.className = "Node-selected";
+      show(oNode);
       var of = oNode.firstChild;
-
       try{of.focus();}catch(e){}
     }
-  }
+  };
   this.unselect = function(){
     if(this.showed){
       var oNode = this.textNode;
       if(oNode){
         oNode.className = "Node-unselect";
-        oNode.firstChild.blur();
+//        oNode.firstChild.blur();
       }
     }
-  }
+  };
 
   this.refresh = function(loadchild){
     if(this.showed){
@@ -589,7 +608,7 @@ function node(caption,title,url,target,tag,callback){
         }
       }
     }
-  }
+  };
   //move to be my child
   this.moveToChild = function(node){
     if(node){
@@ -603,7 +622,7 @@ function node(caption,title,url,target,tag,callback){
         this.add(c);
       }
     }
-  }
+  };
   this.clone = function(){
     var c = new node(this.caption,this.title,this.url,this.target,this.tag);
     copy(this,c);
@@ -619,21 +638,21 @@ function node(caption,title,url,target,tag,callback){
       }
     }
     return c;
-  }
+  };
   this.firstChild = function(){
     if(this.nodes.length>0){
       return this.nodes.items[0];
     }else{
       return null;
     }
-  }
+  };
   this.lastChild = function(){
     if(this.nodes.length>0){
       return this.nodes.items[this.nodes.length-1];
     }else{
       return null;
     }
-  }
+  };
   this.next = function(){
     var p = this.parent;
     for(var i=0;i<p.nodes.length;i++){
@@ -644,7 +663,7 @@ function node(caption,title,url,target,tag,callback){
       }
     }
     return null;
-  }
+  };
   this.previous = function(){
     var p = this.parent;
     for(var i=0;i<p.nodes.length;i++){
@@ -657,39 +676,42 @@ function node(caption,title,url,target,tag,callback){
     return null;
   }
 }
-
 var tv = new treeview("treeview","tree",true,true);
-var b = new node("根节点","","","dsf");
-//var c = new node("hello");
-//var d = new node("ds");
+cc = new node("根节点", "", $("#tabShow").text(), "","");
+tv.add(cc);
+$.get("/dimension/data?id=" + $("#tabShow").text(), function (data) {
+  if (data == "none") {
+    return;
+  } else {
+    $("#saveDim").attr("title", "edit");
+    var dd = new node(data.name, "", data.id, data.code, data.key);
+    cc.add(dd);
+    addChild(data.sub, dd);
+  }
+});
+function addChild(data,cc){
+  data.forEach(function(item){
+    var dd = new node(item.name,"",item.id,item.code,item.key);
+    cc.add(dd);
+    addChild(item.sub,dd)
+  })
+}
 
-treeview.prototype.onnodeclick = function(sender){
-  //alert("caption:" + sender.caption + ",id:" + sender.id + ",deepth:" + sender.level + ",tag:" + sender.tag);
-  //alert("islast:" + sender.isLast +",indent:" + sender.indent);
-//			alert(sender.baseNode.outerHTML);
-  return false;
-};
-
-treeview.prototype.onnodecheck = function(sender){alert(sender.caption + " selected:" + sender.checked);};
+//treeview.prototype.onnodecheck = function(sender){alert(sender.caption + " selected:" + sender.checked);};
 treeview.prototype.onselectchange = function(before,after){
-  //	if(before)
-  //		alert(before.caption + "," + after.caption);
-  //	else
-  //		alert(after.caption);
 };
 
-//		treeview.prototype.onnodekeydown = function(sender,e){var e = event||e;alert(e.keyCode);}
 treeview.prototype.onnodedrag		= function(from,to){
   to.moveToChild(from);
 };
+//tv.add(b);
 
-tv.add(b);
 
 function add(){
   var nn = tv.selected;
   if(!nn)nn=tv;
 
-  nn.add(new node("新建节点"));
+  nn.add(new node("新建节点","","","",""));
 }
 
 

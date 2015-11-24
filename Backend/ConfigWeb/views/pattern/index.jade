@@ -1,0 +1,100 @@
+//
+   Created by tommy_2 on 2015/11/17.
+
+extend ../layout
+
+block content
+  #patternModal.modal.fade(tabindex='-1',role='dialog', aria-labelledby="meetingLabel",aria-hidden="true")
+    div.modal-dialog.modal-xs
+      div.modal-content
+        div.modal-body
+          div#selectType(style="display:none")
+            button.btn.btn-primary#saveType 确定
+            button.btn.btn-default#cancelType 取消
+            div
+              table.table.table-striped#tableType
+                thead
+                  tr
+                    th(style="width:20%")
+                    th(style="width:80%") 名称
+                tbody#typeBody
+          div.row
+            div.col-sm-10.col-sm-offset-1(style="margin-bottom:15px")
+              div.input-group
+                span.input-group-addon 呈现名
+                input.form-control#patternName
+            div.col-sm-10.col-sm-offset-1(style="margin-bottom:15px")
+              div.input-group
+                span.input-group-addon 描　述
+                input.form-control#patternDes
+            div.col-sm-5.col-sm-offset-1(style="margin-bottom:15px")
+              div.input-group
+                span.input-group-addon 数据类型
+                input.form-control#data_type
+            div.col-sm-5(style="margin-bottom:15px")
+              div.input-group
+                span.input-group-addon 呈现类型
+                input.form-control#present_type
+            div.col-sm-10.col-sm-offset-1(style="margin-bottom:15px")
+              div.input-group
+                span.input-group-addon 支持动作
+                input.form-control#patternAction
+                span.input-group-addon#paAction
+                  span.glyphicon.glyphicon-plus
+            div.col-sm-10.col-sm-offset-1(style="margin-bottom:15px")
+              div.input-group
+                span.input-group-addon 呈现效果
+                input.form-control#patternEffect
+                span.input-group-addon#paEffect
+                  span.glyphicon.glyphicon-plus
+
+            div.col-sm-5.col-sm-offset-1(style="margin-bottom:15px")
+              div.input-group
+                span.input-group-addon 宽度
+                input.form-control#patternWidth
+            div.col-sm-5(style="margin-bottom:15px")
+              div.input-group
+                span.input-group-addon 高度
+                input.form-control#patternHeight
+            div.col-sm-5.col-sm-offset-1(style="margin-bottom:15px")
+              div.input-group
+                span.input-group-addon 斜率
+                input.form-control#patternSlope
+            div.col-sm-5(style="margin-bottom:15px")
+              div.input-group
+                span.input-group-addon 刷新率
+                input.form-control#patternRefresh
+                span.input-group-addon 毫秒
+            div.col-sm-11.col-sm-offset-1
+              .col-sm-6
+                input#depend(type="checkbox")
+                span 是否支持联动
+              .col-sm-6
+                label.label.label-danger#layShow
+        div.modal-footer
+          div.row
+            div.btn-group.col-sm-offset-4
+              button.btn.btn-default#laySave 保存
+              button.btn.btn-default(data-dismiss="modal") 关闭
+  div.tab-content.tabWhite
+    div.tab-pane.active
+      div.panel.panel50
+        button.btn.btn-primary(data-toggle="modal" data-target="#patternModal" data-backdrop="static") 新建
+      table.table.table-striped#pattern
+        thead
+          tr
+            th(style="width:30%") 呈现名
+            th(style="width:30%") 描述
+            th(style="width:40%")
+        tbody#patternBody
+          each item,index in models||[]
+            tr
+              td.eName=item.name
+              td.eKey=item.description
+              td
+                button.btn.btn-primary.btn-xs(data-toggle="modal" data-target="#patternModal" data-backdrop="static" data-id="#{item.id}" data-type="edit"
+                data-html="#{item.name}/#{item.description}/#{item.data_type}/#{item.present_type}/#{item.action}/#{item.effect}/#{item.width}/#{item.height}/#{item.slope}/#{item.refresh}/#{item.is_data_depend}") 修改
+                button.btn.btn-danger.btn-xs(onclick="del('#{item.id}')") 删除
+
+block script
+  script(type='text/javascript',src='/js/patternModel/index.js')

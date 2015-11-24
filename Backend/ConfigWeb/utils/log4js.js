@@ -14,7 +14,7 @@ log4js.configure({
   ],
   replaceConsole: true
 });
-var logger = log4js.getLogger('gbtouch');
+var logger = log4js.getLogger('一体化配置');
 logger.setLevel('debug');            //log4js的输出级别6个: trace, debug, info, warn, error, fatal);
 
 exports.Logger = logger;

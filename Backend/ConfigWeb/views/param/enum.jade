@@ -1,0 +1,53 @@
+extend ../layout
+
+block content
+  #enumModal.modal.fade(tabindex='-1',role='dialog', aria-labelledby="meetingLabel",aria-hidden="true")
+    div.modal-dialog.modal-xs
+      div.modal-content
+        div.modal-body
+          div.row
+            div.col-sm-2.col-sm-offset-2
+              div.input-group(style="margin-top:5px;margin-bottom:20px")
+                span
+                  b 描述：
+              div.input-group(style="margin-bottom:20px")
+                span
+                  b 名称：
+            div.col-sm-5
+              input#enumName.form-control(style="margin-bottom:7px")
+              input#enumKey.form-control(style="margin-bottom:7px")
+            div.col-sm-7.col-sm-offset-5
+              label.label.label-danger#showMess
+        div.modal-footer
+          div.row
+            div.btn-group.col-sm-offset-4
+              button.btn.btn-default#save(data-dismiss="modal") 保存
+              button.btn.btn-default(data-dismiss="modal") 关闭
+  div.tab-content.tabWhite
+    div(id="enumShow",style="display:none")= id
+    div.tab-pane.active
+      div.panel.panel50
+        label#name.label.label-warning(style="margin-right:10px")= name
+        button.btn.btn-primary(data-toggle="modal" data-target="#enumModal" data-backdrop="static") 新建
+        div.input-group.enumCode
+          span.input-group-addon 编码
+          input#enumCode(type="text" class="form-control" value="#{code}")
+        button.btn.btn-default.pull-right(onclick="backparam()" style="margin-top:-30px") 返回
+        button.btn.btn-info.pull-right(onclick="saveall('#{type}')" style="margin-top:-30px") 保存
+      table.table.table-striped#dimension
+        thead
+          tr
+            th(style="width:30%") 名称
+            th(style="width:30%") 描述
+            th(style="width:40%")
+        tbody#enumBody(title='#{enums.id}')
+          each item,index in models||[]
+            tr(id="#{item.id}")
+              td.eKey=item.key
+              td.eName=item.name
+              td
+                button.btn.btn-danger.btn-xs(onclick="del(#{item.id})") 删除
+block script
+  script(type='text/javascript',src='/js/param/enum.js')
+
+

@@ -47,3 +47,15 @@
     color:HighLightText;
     text-decoration:underline;
 }
+#show{
+    height: 400px;
+    border: 1px solid #ddd;
+}
+#treeName{
+    margin-bottom: 30px;
+}
+#saveCourt{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

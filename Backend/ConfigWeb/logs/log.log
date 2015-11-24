@@ -5174,3 +5174,1027 @@ Error: connect ECONNREFUSED
 [2015-11-13 11:02:33.116] [DEBUG] gbtouch - Listening on port 3001
 [2015-11-13 11:43:40.387] [INFO] gbtouch - initial node server
 [2015-11-13 11:43:40.390] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 14:15:31.338] [INFO] gbtouch - initial node server
+[2015-11-13 14:15:31.341] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 14:17:57.206] [INFO] gbtouch - initial node server
+[2015-11-13 14:17:57.209] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 14:18:26.646] [INFO] gbtouch - initial node server
+[2015-11-13 14:18:26.649] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 14:18:58.968] [INFO] gbtouch - initial node server
+[2015-11-13 14:18:58.971] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 14:21:08.867] [INFO] gbtouch - initial node server
+[2015-11-13 14:21:08.870] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 14:22:39.809] [INFO] gbtouch - initial node server
+[2015-11-13 14:22:39.812] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 14:23:47.703] [INFO] gbtouch - initial node server
+[2015-11-13 14:23:47.706] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 14:25:00.531] [INFO] gbtouch - initial node server
+[2015-11-13 14:25:00.534] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 14:25:50.424] [INFO] gbtouch - initial node server
+[2015-11-13 14:25:50.427] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 14:26:08.227] [INFO] gbtouch - initial node server
+[2015-11-13 14:26:08.230] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 14:26:24.749] [INFO] gbtouch - initial node server
+[2015-11-13 14:26:24.752] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 14:27:46.308] [INFO] gbtouch - initial node server
+[2015-11-13 14:27:46.311] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 16:21:05.196] [INFO] gbtouch - initial node server
+[2015-11-13 16:21:05.199] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 16:24:47.307] [INFO] gbtouch - initial node server
+[2015-11-13 16:24:47.310] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 16:52:30.363] [INFO] gbtouch - initial node server
+[2015-11-13 16:52:30.366] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 16:52:59.337] [INFO] gbtouch - initial node server
+[2015-11-13 16:52:59.341] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 16:53:18.720] [INFO] gbtouch - initial node server
+[2015-11-13 16:53:18.723] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 16:55:52.434] [INFO] gbtouch - initial node server
+[2015-11-13 16:55:52.436] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 16:57:02.457] [INFO] gbtouch - initial node server
+[2015-11-13 16:57:02.459] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 16:57:10.444] [INFO] gbtouch - initial node server
+[2015-11-13 16:57:10.447] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 16:57:55.295] [INFO] gbtouch - initial node server
+[2015-11-13 16:57:55.298] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 17:12:08.391] [INFO] gbtouch - initial node server
+[2015-11-13 17:12:08.394] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 17:14:33.386] [INFO] gbtouch - initial node server
+[2015-11-13 17:14:33.389] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 17:47:36.671] [INFO] gbtouch - initial node server
+[2015-11-13 17:47:36.674] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 17:48:45.695] [INFO] gbtouch - initial node server
+[2015-11-13 17:48:45.699] [DEBUG] gbtouch - Listening on port 80
+[2015-11-13 17:50:13.522] [INFO] gbtouch - initial node server
+[2015-11-13 17:50:13.525] [DEBUG] gbtouch - Listening on port 80
+[2015-11-14 23:06:05.214] [INFO] gbtouch - initial node server
+[2015-11-14 23:06:05.217] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 11:17:50.770] [INFO] gbtouch - initial node server
+[2015-11-15 11:17:50.773] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 11:20:08.852] [INFO] gbtouch - initial node server
+[2015-11-15 11:20:08.855] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 15:51:21.657] [INFO] gbtouch - initial node server
+[2015-11-15 15:51:21.661] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 16:38:15.604] [INFO] gbtouch - initial node server
+[2015-11-15 16:38:15.607] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 16:51:16.390] [INFO] gbtouch - initial node server
+[2015-11-15 16:51:16.393] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 16:53:59.692] [INFO] gbtouch - initial node server
+[2015-11-15 16:53:59.696] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 17:13:07.776] [INFO] gbtouch - initial node server
+[2015-11-15 17:13:07.779] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 17:26:35.788] [INFO] gbtouch - initial node server
+[2015-11-15 17:26:35.791] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 20:17:02.916] [INFO] gbtouch - initial node server
+[2015-11-15 20:17:02.920] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 20:18:35.952] [INFO] gbtouch - initial node server
+[2015-11-15 20:18:35.955] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 20:21:46.297] [INFO] gbtouch - initial node server
+[2015-11-15 20:21:46.300] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 20:24:02.485] [INFO] gbtouch - initial node server
+[2015-11-15 20:24:02.489] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 20:31:36.010] [INFO] gbtouch - initial node server
+[2015-11-15 20:31:36.014] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 20:32:33.537] [INFO] gbtouch - initial node server
+[2015-11-15 20:32:33.541] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 20:35:00.696] [INFO] gbtouch - initial node server
+[2015-11-15 20:35:00.700] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 20:51:08.490] [INFO] gbtouch - initial node server
+[2015-11-15 20:51:08.494] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 21:04:35.561] [INFO] gbtouch - initial node server
+[2015-11-15 21:04:35.565] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 21:06:08.831] [INFO] gbtouch - initial node server
+[2015-11-15 21:06:08.834] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-15 21:06:50.517] [INFO] gbtouch - initial node server
+[2015-11-15 21:06:50.522] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-16 00:03:35.849] [INFO] gbtouch - initial node server
+[2015-11-16 00:03:35.853] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-16 00:04:28.898] [INFO] gbtouch - initial node server
+[2015-11-16 00:04:28.902] [DEBUG] gbtouch - Listening on port 3000
+[2015-11-16 09:41:17.254] [INFO] gbtouch - initial node server
+[2015-11-16 09:41:17.256] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 10:22:09.685] [INFO] gbtouch - initial node server
+[2015-11-16 10:22:09.688] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 10:23:52.040] [INFO] gbtouch - initial node server
+[2015-11-16 10:23:52.043] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 10:24:08.915] [INFO] gbtouch - initial node server
+[2015-11-16 10:24:08.918] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 10:25:04.160] [INFO] gbtouch - initial node server
+[2015-11-16 10:25:04.163] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 10:26:17.713] [INFO] gbtouch - initial node server
+[2015-11-16 10:26:17.716] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 10:29:12.128] [INFO] gbtouch - initial node server
+[2015-11-16 10:29:12.130] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 12:04:56.663] [INFO] gbtouch - initial node server
+[2015-11-16 12:04:56.665] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 13:48:16.905] [INFO] gbtouch - initial node server
+[2015-11-16 13:48:16.907] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 13:53:00.996] [INFO] gbtouch - initial node server
+[2015-11-16 13:53:00.999] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 13:53:03.911] [INFO] gbtouch - initial node server
+[2015-11-16 13:53:03.914] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 13:53:31.497] [INFO] gbtouch - initial node server
+[2015-11-16 13:53:31.500] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 13:56:06.853] [INFO] gbtouch - initial node server
+[2015-11-16 13:56:06.856] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 13:56:36.481] [INFO] gbtouch - initial node server
+[2015-11-16 13:56:36.484] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 13:56:45.049] [INFO] gbtouch - 更新成功：675a802c-0f53-4687-a203-34a905f6e5f4
+[2015-11-16 13:59:45.715] [INFO] gbtouch - initial node server
+[2015-11-16 13:59:45.718] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:00:16.170] [INFO] gbtouch - initial node server
+[2015-11-16 14:00:16.172] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:00:53.729] [INFO] gbtouch - initial node server
+[2015-11-16 14:00:53.732] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:02:17.355] [INFO] gbtouch - initial node server
+[2015-11-16 14:02:17.358] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:04:44.131] [INFO] gbtouch - initial node server
+[2015-11-16 14:04:44.134] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:05:39.860] [INFO] gbtouch - 删除失败
+[2015-11-16 14:06:20.859] [INFO] gbtouch - initial node server
+[2015-11-16 14:06:20.862] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:07:05.613] [INFO] gbtouch - initial node server
+[2015-11-16 14:07:05.616] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:07:49.884] [INFO] gbtouch - initial node server
+[2015-11-16 14:07:49.887] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:08:46.709] [INFO] gbtouch - initial node server
+[2015-11-16 14:08:46.712] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:10:21.204] [INFO] gbtouch - initial node server
+[2015-11-16 14:10:21.207] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:11:44.449] [INFO] gbtouch - initial node server
+[2015-11-16 14:11:44.452] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:12:58.801] [INFO] gbtouch - 保存失败
+[2015-11-16 14:14:59.128] [INFO] gbtouch - 保存失败
+[2015-11-16 14:26:56.954] [INFO] gbtouch - initial node server
+[2015-11-16 14:26:56.957] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:27:23.355] [INFO] gbtouch - 保存失败
+[2015-11-16 14:28:45.377] [INFO] gbtouch - initial node server
+[2015-11-16 14:28:45.379] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:28:45.657] [INFO] gbtouch - 保存失败
+[2015-11-16 14:29:09.206] [INFO] gbtouch - initial node server
+[2015-11-16 14:29:09.209] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:29:17.855] [INFO] gbtouch - 保存失败
+[2015-11-16 14:30:00.319] [INFO] gbtouch - initial node server
+[2015-11-16 14:30:00.322] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:30:00.579] [INFO] gbtouch - 保存失败
+[2015-11-16 14:30:25.196] [INFO] gbtouch - initial node server
+[2015-11-16 14:30:25.198] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:30:34.717] [INFO] gbtouch - 保存失败
+[2015-11-16 14:32:35.016] [INFO] gbtouch - 保存失败
+[2015-11-16 14:33:19.988] [INFO] gbtouch - initial node server
+[2015-11-16 14:33:19.991] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:33:42.597] [INFO] gbtouch - 保存失败
+[2015-11-16 14:34:52.258] [INFO] gbtouch - initial node server
+[2015-11-16 14:34:52.261] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:34:52.334] [INFO] gbtouch - 保存失败
+[2015-11-16 14:34:57.500] [INFO] gbtouch - initial node server
+[2015-11-16 14:34:57.503] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:37:04.749] [INFO] gbtouch - initial node server
+[2015-11-16 14:37:04.751] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:37:13.478] [INFO] gbtouch - 保存失败
+[2015-11-16 14:39:13.756] [INFO] gbtouch - 保存失败
+[2015-11-16 14:48:05.660] [INFO] gbtouch - initial node server
+[2015-11-16 14:48:05.663] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:48:15.682] [INFO] gbtouch - 保存失败
+[2015-11-16 14:50:15.969] [INFO] gbtouch - 保存失败
+[2015-11-16 14:50:28.253] [INFO] gbtouch - initial node server
+[2015-11-16 14:50:28.256] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:50:35.373] [INFO] gbtouch - 保存失败
+[2015-11-16 14:50:54.588] [INFO] gbtouch - initial node server
+[2015-11-16 14:50:54.591] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:50:54.815] [INFO] gbtouch - 保存失败
+[2015-11-16 14:51:05.472] [INFO] gbtouch - initial node server
+[2015-11-16 14:51:05.476] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:51:25.929] [INFO] gbtouch - initial node server
+[2015-11-16 14:51:25.932] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:51:31.492] [INFO] gbtouch - 保存失败
+[2015-11-16 14:52:04.053] [INFO] gbtouch - initial node server
+[2015-11-16 14:52:04.056] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:52:04.294] [INFO] gbtouch - 保存失败
+[2015-11-16 14:52:41.074] [INFO] gbtouch - initial node server
+[2015-11-16 14:52:41.076] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:52:47.789] [INFO] gbtouch - 保存失败
+[2015-11-16 14:54:48.085] [INFO] gbtouch - 保存失败
+[2015-11-16 14:55:16.373] [INFO] gbtouch - initial node server
+[2015-11-16 14:55:16.376] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:55:31.891] [INFO] gbtouch - initial node server
+[2015-11-16 14:55:31.893] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:56:48.024] [INFO] gbtouch - 保存失败
+[2015-11-16 14:58:19.574] [INFO] gbtouch - initial node server
+[2015-11-16 14:58:19.577] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:58:19.831] [INFO] gbtouch - 保存失败
+[2015-11-16 14:58:27.099] [INFO] gbtouch - initial node server
+[2015-11-16 14:58:27.102] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 14:58:33.098] [INFO] gbtouch - 保存失败
+[2015-11-16 15:00:33.403] [INFO] gbtouch - 保存失败
+[2015-11-16 15:00:54.503] [INFO] gbtouch - initial node server
+[2015-11-16 15:00:54.506] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:01:03.966] [INFO] gbtouch - 保存失败
+[2015-11-16 15:03:04.284] [INFO] gbtouch - 保存失败
+[2015-11-16 15:04:41.001] [INFO] gbtouch - initial node server
+[2015-11-16 15:04:41.004] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:05:10.951] [INFO] gbtouch - 保存失败
+[2015-11-16 15:06:30.040] [INFO] gbtouch - initial node server
+[2015-11-16 15:06:30.043] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:06:30.328] [INFO] gbtouch - 保存失败
+[2015-11-16 15:06:38.678] [INFO] gbtouch - initial node server
+[2015-11-16 15:06:38.681] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:06:45.731] [INFO] gbtouch - 保存失败
+[2015-11-16 15:07:34.730] [INFO] gbtouch - initial node server
+[2015-11-16 15:07:34.733] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:07:35.088] [INFO] gbtouch - 保存失败
+[2015-11-16 15:07:41.453] [INFO] gbtouch - initial node server
+[2015-11-16 15:07:41.456] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:07:47.445] [INFO] gbtouch - 保存失败
+[2015-11-16 15:08:27.885] [INFO] gbtouch - initial node server
+[2015-11-16 15:08:27.888] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:08:29.228] [INFO] gbtouch - 保存失败
+[2015-11-16 15:08:31.471] [INFO] gbtouch - initial node server
+[2015-11-16 15:08:31.474] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:08:52.524] [INFO] gbtouch - 保存失败
+[2015-11-16 15:09:49.352] [INFO] gbtouch - initial node server
+[2015-11-16 15:09:49.354] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:09:49.712] [INFO] gbtouch - 保存失败
+[2015-11-16 15:11:12.081] [INFO] gbtouch - initial node server
+[2015-11-16 15:11:12.084] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:11:21.859] [INFO] gbtouch - 保存失败
+[2015-11-16 15:12:39.739] [INFO] gbtouch - initial node server
+[2015-11-16 15:12:39.742] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:14:19.971] [INFO] gbtouch - initial node server
+[2015-11-16 15:14:19.974] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:22:37.045] [INFO] gbtouch - initial node server
+[2015-11-16 15:22:37.049] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:23:02.814] [INFO] gbtouch - initial node server
+[2015-11-16 15:23:02.817] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:24:51.793] [INFO] gbtouch - initial node server
+[2015-11-16 15:24:51.796] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:25:00.969] [INFO] gbtouch - initial node server
+[2015-11-16 15:25:00.972] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:25:14.763] [INFO] gbtouch - initial node server
+[2015-11-16 15:25:14.766] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:29:35.898] [INFO] gbtouch - initial node server
+[2015-11-16 15:29:35.901] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:30:23.505] [INFO] gbtouch - initial node server
+[2015-11-16 15:30:23.508] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:34:24.911] [INFO] gbtouch - initial node server
+[2015-11-16 15:34:24.914] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:39:04.370] [INFO] gbtouch - initial node server
+[2015-11-16 15:39:04.374] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:40:11.738] [INFO] gbtouch - initial node server
+[2015-11-16 15:40:11.741] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:42:03.566] [INFO] gbtouch - initial node server
+[2015-11-16 15:42:03.569] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 15:42:31.903] [INFO] gbtouch - initial node server
+[2015-11-16 15:42:31.906] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 16:10:04.055] [INFO] gbtouch - initial node server
+[2015-11-16 16:10:04.057] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 16:11:35.537] [INFO] gbtouch - initial node server
+[2015-11-16 16:11:35.540] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 16:16:26.361] [INFO] gbtouch - initial node server
+[2015-11-16 16:16:26.364] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 16:26:50.815] [INFO] gbtouch - initial node server
+[2015-11-16 16:26:50.818] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 16:37:23.086] [INFO] gbtouch - initial node server
+[2015-11-16 16:37:23.088] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:04:30.427] [INFO] gbtouch - 删除失败
+[2015-11-16 17:04:56.234] [INFO] gbtouch - initial node server
+[2015-11-16 17:04:56.237] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:04:56.329] [INFO] gbtouch - 删除失败
+[2015-11-16 17:05:14.109] [INFO] gbtouch - initial node server
+[2015-11-16 17:05:14.112] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:05:14.452] [INFO] gbtouch - 删除失败
+[2015-11-16 17:05:22.592] [INFO] gbtouch - initial node server
+[2015-11-16 17:05:22.595] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:05:22.797] [INFO] gbtouch - 删除失败
+[2015-11-16 17:05:25.751] [INFO] gbtouch - initial node server
+[2015-11-16 17:05:25.754] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:07:26.204] [INFO] gbtouch - initial node server
+[2015-11-16 17:07:26.207] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:11:07.755] [INFO] gbtouch - 更新
+[2015-11-16 17:12:01.015] [INFO] gbtouch - initial node server
+[2015-11-16 17:12:01.018] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:12:01.232] [INFO] gbtouch - 更新错误
+[2015-11-16 17:12:04.496] [INFO] gbtouch - initial node server
+[2015-11-16 17:12:04.498] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:14:43.288] [INFO] gbtouch - 更新错误
+[2015-11-16 17:15:14.925] [INFO] gbtouch - initial node server
+[2015-11-16 17:15:14.928] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:15:15.200] [INFO] gbtouch - 更新错误
+[2015-11-16 17:16:15.988] [INFO] gbtouch - initial node server
+[2015-11-16 17:16:15.991] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:16:37.217] [INFO] gbtouch - initial node server
+[2015-11-16 17:16:37.219] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:18:00.806] [INFO] gbtouch - 更新错误
+[2015-11-16 17:18:50.143] [INFO] gbtouch - initial node server
+[2015-11-16 17:18:50.145] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:18:50.382] [INFO] gbtouch - 更新错误
+[2015-11-16 17:18:54.217] [INFO] gbtouch - initial node server
+[2015-11-16 17:18:54.219] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:19:06.769] [INFO] gbtouch - 更新错误
+[2015-11-16 17:19:53.115] [INFO] gbtouch - initial node server
+[2015-11-16 17:19:53.118] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:19:53.403] [INFO] gbtouch - 更新错误:400
+[2015-11-16 17:40:23.370] [INFO] gbtouch - initial node server
+[2015-11-16 17:40:23.373] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:40:49.858] [INFO] gbtouch - 更新错误:400
+[2015-11-16 17:42:50.157] [INFO] gbtouch - 更新错误:400
+[2015-11-16 17:44:31.891] [INFO] gbtouch - initial node server
+[2015-11-16 17:44:31.894] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:44:40.117] [INFO] gbtouch - 更新错误:400
+[2015-11-16 17:45:48.610] [INFO] gbtouch - initial node server
+[2015-11-16 17:45:48.613] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:46:08.177] [INFO] gbtouch - initial node server
+[2015-11-16 17:46:08.181] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:47:22.442] [INFO] gbtouch - initial node server
+[2015-11-16 17:47:22.445] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 17:48:50.781] [INFO] gbtouch - initial node server
+[2015-11-16 17:48:50.784] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 18:03:36.090] [INFO] gbtouch - initial node server
+[2015-11-16 18:03:36.093] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 18:04:36.492] [INFO] gbtouch - initial node server
+[2015-11-16 18:04:36.495] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 18:06:32.183] [INFO] gbtouch - initial node server
+[2015-11-16 18:06:32.186] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-16 18:06:55.830] [INFO] gbtouch - 更新成功：8b22f813-6990-409f-bd70-e49dab9e2be1
+[2015-11-17 10:21:29.241] [INFO] gbtouch - initial node server
+[2015-11-17 10:21:29.244] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 10:24:32.470] [INFO] gbtouch - initial node server
+[2015-11-17 10:24:32.473] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 10:27:12.727] [INFO] gbtouch - initial node server
+[2015-11-17 10:27:12.730] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 10:27:46.365] [INFO] gbtouch - initial node server
+[2015-11-17 10:27:46.368] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 10:28:12.057] [INFO] gbtouch - initial node server
+[2015-11-17 10:28:12.060] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 10:28:38.195] [INFO] gbtouch - initial node server
+[2015-11-17 10:28:38.197] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 10:39:50.477] [INFO] gbtouch - initial node server
+[2015-11-17 10:39:50.479] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 10:46:07.491] [INFO] gbtouch - initial node server
+[2015-11-17 10:46:07.495] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 10:47:18.254] [INFO] gbtouch - initial node server
+[2015-11-17 10:47:18.256] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 13:46:12.921] [INFO] gbtouch - initial node server
+[2015-11-17 13:46:12.925] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 13:52:05.851] [INFO] gbtouch - initial node server
+[2015-11-17 13:52:05.854] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 14:05:41.541] [INFO] gbtouch - initial node server
+[2015-11-17 14:05:41.544] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 14:06:32.443] [INFO] gbtouch - initial node server
+[2015-11-17 14:06:32.446] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 16:58:12.682] [INFO] gbtouch - initial node server
+[2015-11-17 16:58:12.686] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 17:26:21.993] [INFO] gbtouch - initial node server
+[2015-11-17 17:26:21.996] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 17:27:12.875] [INFO] gbtouch - initial node server
+[2015-11-17 17:27:12.878] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 17:27:20.284] [INFO] gbtouch - 更新成功：b2fda9a3-3dac-4362-a4f2-1306014471c0
+[2015-11-17 17:37:14.463] [INFO] gbtouch - initial node server
+[2015-11-17 17:37:14.466] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 17:37:53.135] [INFO] gbtouch - initial node server
+[2015-11-17 17:37:53.138] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 17:39:47.341] [INFO] gbtouch - initial node server
+[2015-11-17 17:39:47.344] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 17:58:58.656] [INFO] gbtouch - initial node server
+[2015-11-17 17:58:58.660] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 17:59:25.724] [INFO] gbtouch - initial node server
+[2015-11-17 17:59:25.727] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:00:25.191] [INFO] gbtouch - initial node server
+[2015-11-17 18:00:25.194] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:01:07.376] [INFO] gbtouch - initial node server
+[2015-11-17 18:01:07.379] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:01:16.564] [INFO] gbtouch - initial node server
+[2015-11-17 18:01:16.567] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:02:19.833] [INFO] gbtouch - initial node server
+[2015-11-17 18:02:19.836] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:03:45.739] [INFO] gbtouch - initial node server
+[2015-11-17 18:03:45.742] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:04:40.797] [INFO] gbtouch - initial node server
+[2015-11-17 18:04:40.800] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:05:54.333] [INFO] gbtouch - initial node server
+[2015-11-17 18:05:54.336] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:06:40.945] [INFO] gbtouch - initial node server
+[2015-11-17 18:06:40.948] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:09:47.285] [INFO] gbtouch - initial node server
+[2015-11-17 18:09:47.287] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:10:58.078] [INFO] gbtouch - initial node server
+[2015-11-17 18:10:58.081] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:11:14.979] [INFO] gbtouch - initial node server
+[2015-11-17 18:11:14.982] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:13:00.990] [INFO] gbtouch - initial node server
+[2015-11-17 18:13:00.993] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:21:34.648] [INFO] gbtouch - 保存失败
+[2015-11-17 18:22:16.500] [INFO] gbtouch - initial node server
+[2015-11-17 18:22:16.503] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 18:22:19.715] [INFO] gbtouch - 保存失败
+[2015-11-17 18:22:32.488] [INFO] gbtouch - initial node server
+[2015-11-17 18:22:32.491] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:02:21.241] [INFO] gbtouch - initial node server
+[2015-11-17 19:02:21.244] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:04:51.447] [INFO] gbtouch - 保存失败
+[2015-11-17 19:05:48.926] [INFO] gbtouch - initial node server
+[2015-11-17 19:05:48.929] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:06:59.959] [INFO] gbtouch - initial node server
+[2015-11-17 19:06:59.962] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:33:31.252] [INFO] gbtouch - initial node server
+[2015-11-17 19:33:31.255] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:35:52.808] [INFO] gbtouch - initial node server
+[2015-11-17 19:35:52.811] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:36:29.037] [INFO] gbtouch - initial node server
+[2015-11-17 19:36:29.041] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:38:33.511] [INFO] gbtouch - initial node server
+[2015-11-17 19:38:33.514] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:39:02.250] [INFO] gbtouch - initial node server
+[2015-11-17 19:39:02.253] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:39:31.817] [INFO] gbtouch - initial node server
+[2015-11-17 19:39:31.819] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:41:22.402] [INFO] gbtouch - initial node server
+[2015-11-17 19:41:22.405] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:41:27.604] [INFO] gbtouch - initial node server
+[2015-11-17 19:41:27.607] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:41:53.841] [INFO] gbtouch - initial node server
+[2015-11-17 19:41:53.844] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:42:19.078] [INFO] gbtouch - initial node server
+[2015-11-17 19:42:19.081] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:51:22.348] [INFO] gbtouch - initial node server
+[2015-11-17 19:51:22.351] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:52:32.240] [INFO] gbtouch - 保存失败
+[2015-11-17 19:53:01.284] [INFO] gbtouch - initial node server
+[2015-11-17 19:53:01.286] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:53:01.572] [INFO] gbtouch - 保存失败
+[2015-11-17 19:53:09.074] [INFO] gbtouch - initial node server
+[2015-11-17 19:53:09.077] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:53:09.979] [INFO] gbtouch - 保存失败
+[2015-11-17 19:53:14.549] [INFO] gbtouch - initial node server
+[2015-11-17 19:53:14.552] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:54:22.773] [INFO] gbtouch - initial node server
+[2015-11-17 19:54:22.776] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:55:01.430] [INFO] gbtouch - 保存失败
+[2015-11-17 19:56:12.862] [INFO] gbtouch - initial node server
+[2015-11-17 19:56:12.865] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:56:13.178] [INFO] gbtouch - 保存失败
+[2015-11-17 19:56:15.673] [INFO] gbtouch - initial node server
+[2015-11-17 19:56:15.676] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:56:16.303] [INFO] gbtouch - 保存失败
+[2015-11-17 19:56:20.589] [INFO] gbtouch - initial node server
+[2015-11-17 19:56:20.592] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:56:20.877] [INFO] gbtouch - 保存失败
+[2015-11-17 19:56:24.164] [INFO] gbtouch - initial node server
+[2015-11-17 19:56:24.168] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:56:33.849] [INFO] gbtouch - 保存失败
+[2015-11-17 19:57:15.644] [INFO] gbtouch - initial node server
+[2015-11-17 19:57:15.647] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:57:15.851] [INFO] gbtouch - 保存失败
+[2015-11-17 19:57:18.592] [INFO] gbtouch - initial node server
+[2015-11-17 19:57:18.595] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:57:20.199] [INFO] gbtouch - 保存失败
+[2015-11-17 19:57:23.509] [INFO] gbtouch - initial node server
+[2015-11-17 19:57:23.512] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:57:35.198] [INFO] gbtouch - 保存失败
+[2015-11-17 19:58:36.720] [INFO] gbtouch - initial node server
+[2015-11-17 19:58:36.722] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:58:37.027] [INFO] gbtouch - 保存失败
+[2015-11-17 19:58:39.398] [INFO] gbtouch - initial node server
+[2015-11-17 19:58:39.401] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:58:40.837] [INFO] gbtouch - 保存失败
+[2015-11-17 19:58:49.726] [INFO] gbtouch - initial node server
+[2015-11-17 19:58:49.729] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 19:58:49.984] [INFO] gbtouch - 保存失败
+[2015-11-17 19:58:52.796] [INFO] gbtouch - initial node server
+[2015-11-17 19:58:52.798] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:02:16.562] [INFO] gbtouch - initial node server
+[2015-11-17 20:02:16.564] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:03:58.277] [INFO] gbtouch - initial node server
+[2015-11-17 20:03:58.280] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:04:29.258] [INFO] gbtouch - initial node server
+[2015-11-17 20:04:29.261] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:05:24.244] [INFO] gbtouch - initial node server
+[2015-11-17 20:05:24.247] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:05:48.880] [INFO] gbtouch - initial node server
+[2015-11-17 20:05:48.883] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:05:58.095] [INFO] gbtouch - initial node server
+[2015-11-17 20:05:58.098] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:06:49.661] [INFO] gbtouch - initial node server
+[2015-11-17 20:06:49.664] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:07:09.989] [INFO] gbtouch - initial node server
+[2015-11-17 20:07:09.992] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:07:39.360] [INFO] gbtouch - initial node server
+[2015-11-17 20:07:39.362] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:07:58.508] [INFO] gbtouch - initial node server
+[2015-11-17 20:07:58.511] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:09:16.024] [INFO] gbtouch - initial node server
+[2015-11-17 20:09:16.027] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:09:30.553] [INFO] gbtouch - initial node server
+[2015-11-17 20:09:30.556] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:19:58.470] [INFO] gbtouch - initial node server
+[2015-11-17 20:19:58.473] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:21:18.815] [INFO] gbtouch - initial node server
+[2015-11-17 20:21:18.818] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:30:34.408] [INFO] gbtouch - initial node server
+[2015-11-17 20:30:34.411] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:34:28.157] [INFO] gbtouch - initial node server
+[2015-11-17 20:34:28.160] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:36:16.756] [INFO] gbtouch - initial node server
+[2015-11-17 20:36:16.758] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:37:57.543] [INFO] gbtouch - initial node server
+[2015-11-17 20:37:57.546] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:38:40.428] [INFO] gbtouch - initial node server
+[2015-11-17 20:38:40.431] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:39:35.569] [INFO] gbtouch - initial node server
+[2015-11-17 20:39:35.572] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-17 20:39:56.131] [INFO] gbtouch - initial node server
+[2015-11-17 20:39:56.135] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:18:14.526] [INFO] gbtouch - initial node server
+[2015-11-18 11:18:14.528] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:33:36.257] [INFO] gbtouch - initial node server
+[2015-11-18 11:33:36.260] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:33:49.103] [INFO] gbtouch - 更新错误:400
+[2015-11-18 11:34:50.058] [INFO] gbtouch - initial node server
+[2015-11-18 11:34:50.061] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:34:50.426] [INFO] gbtouch - 更新错误:400
+[2015-11-18 11:35:38.159] [INFO] gbtouch - initial node server
+[2015-11-18 11:35:38.162] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:37:11.910] [INFO] gbtouch - initial node server
+[2015-11-18 11:37:11.913] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:41:22.596] [INFO] gbtouch - initial node server
+[2015-11-18 11:41:22.599] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:41:50.354] [INFO] gbtouch - initial node server
+[2015-11-18 11:41:50.357] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:45:13.981] [INFO] gbtouch - initial node server
+[2015-11-18 11:45:13.984] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:47:54.460] [INFO] gbtouch - initial node server
+[2015-11-18 11:47:54.463] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:49:43.182] [INFO] gbtouch - initial node server
+[2015-11-18 11:49:43.185] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:51:07.785] [INFO] gbtouch - initial node server
+[2015-11-18 11:51:07.788] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:53:10.968] [INFO] gbtouch - initial node server
+[2015-11-18 11:53:10.971] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 11:54:19.976] [INFO] gbtouch - initial node server
+[2015-11-18 11:54:19.979] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 12:06:22.455] [INFO] gbtouch - initial node server
+[2015-11-18 12:06:22.458] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 14:04:27.591] [INFO] gbtouch - 更新错误:400
+[2015-11-18 14:06:14.843] [INFO] gbtouch - initial node server
+[2015-11-18 14:06:14.846] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 14:06:15.137] [INFO] gbtouch - 更新错误:400
+[2015-11-18 14:06:17.158] [INFO] gbtouch - initial node server
+[2015-11-18 14:06:17.161] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 14:06:27.919] [INFO] gbtouch - 更新错误:400
+[2015-11-18 14:07:19.322] [INFO] gbtouch - initial node server
+[2015-11-18 14:07:19.325] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 14:07:19.610] [INFO] gbtouch - 更新错误:400
+[2015-11-18 14:07:21.588] [INFO] gbtouch - initial node server
+[2015-11-18 14:07:21.591] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 14:09:30.486] [INFO] gbtouch - initial node server
+[2015-11-18 14:09:30.489] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 14:09:36.553] [INFO] gbtouch - 更新错误:405
+[2015-11-18 14:10:41.659] [INFO] gbtouch - initial node server
+[2015-11-18 14:10:41.662] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 14:10:41.795] [INFO] gbtouch - 更新错误:405
+[2015-11-18 14:16:49.477] [INFO] gbtouch - initial node server
+[2015-11-18 14:16:49.480] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 14:17:02.417] [INFO] gbtouch - initial node server
+[2015-11-18 14:17:02.420] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 14:17:16.399] [INFO] gbtouch - initial node server
+[2015-11-18 14:17:16.402] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:15:22.338] [INFO] gbtouch - initial node server
+[2015-11-18 15:15:22.341] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:19:52.241] [INFO] gbtouch - initial node server
+[2015-11-18 15:19:52.243] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:28:36.660] [INFO] gbtouch - initial node server
+[2015-11-18 15:28:36.663] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:28:40.571] [INFO] gbtouch - initial node server
+[2015-11-18 15:28:40.574] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:28:44.515] [INFO] gbtouch - initial node server
+[2015-11-18 15:28:44.518] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:28:47.492] [INFO] gbtouch - initial node server
+[2015-11-18 15:28:47.495] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:28:49.298] [INFO] gbtouch - initial node server
+[2015-11-18 15:28:49.301] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:28:51.316] [INFO] gbtouch - initial node server
+[2015-11-18 15:28:51.319] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:28:53.178] [INFO] gbtouch - initial node server
+[2015-11-18 15:28:53.182] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:29:32.623] [INFO] gbtouch - initial node server
+[2015-11-18 15:29:32.626] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:32:29.893] [INFO] gbtouch - initial node server
+[2015-11-18 15:32:29.896] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:33:28.640] [INFO] gbtouch - initial node server
+[2015-11-18 15:33:28.643] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:33:31.405] [INFO] gbtouch - initial node server
+[2015-11-18 15:33:31.408] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:34:30.873] [INFO] gbtouch - initial node server
+[2015-11-18 15:34:30.876] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:34:33.488] [INFO] gbtouch - initial node server
+[2015-11-18 15:34:33.491] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:35:30.426] [INFO] gbtouch - initial node server
+[2015-11-18 15:35:30.428] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:35:33.311] [INFO] gbtouch - initial node server
+[2015-11-18 15:35:33.314] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:52:24.847] [INFO] gbtouch - initial node server
+[2015-11-18 15:52:24.851] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:53:00.281] [INFO] gbtouch - 保存失败
+[2015-11-18 15:55:03.561] [INFO] gbtouch - 保存失败
+[2015-11-18 15:57:48.660] [INFO] gbtouch - initial node server
+[2015-11-18 15:57:48.663] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 15:58:09.990] [INFO] gbtouch - 保存失败
+[2015-11-18 16:01:11.140] [INFO] gbtouch - initial node server
+[2015-11-18 16:01:11.143] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 16:01:34.970] [INFO] gbtouch - 保存失败
+[2015-11-18 16:02:24.304] [INFO] gbtouch - initial node server
+[2015-11-18 16:02:24.306] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 16:02:35.302] [INFO] gbtouch - 保存失败
+[2015-11-18 16:05:24.972] [INFO] gbtouch - initial node server
+[2015-11-18 16:05:24.975] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 16:06:02.518] [INFO] gbtouch - initial node server
+[2015-11-18 16:06:02.521] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 16:06:48.166] [INFO] gbtouch - initial node server
+[2015-11-18 16:06:48.169] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 16:07:23.544] [INFO] gbtouch - 保存失败
+[2015-11-18 16:10:52.087] [INFO] gbtouch - initial node server
+[2015-11-18 16:10:52.090] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 16:22:21.046] [INFO] gbtouch - initial node server
+[2015-11-18 16:22:21.049] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 16:36:39.411] [INFO] gbtouch - initial node server
+[2015-11-18 16:36:39.414] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 16:36:53.098] [INFO] gbtouch - 保存失败
+[2015-11-18 16:52:08.846] [INFO] gbtouch - initial node server
+[2015-11-18 16:52:08.849] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 16:52:45.502] [INFO] gbtouch - initial node server
+[2015-11-18 16:52:45.504] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 17:26:48.979] [INFO] gbtouch - initial node server
+[2015-11-18 17:26:48.981] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 18:39:51.705] [INFO] gbtouch - initial node server
+[2015-11-18 18:39:51.707] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 18:41:32.681] [INFO] gbtouch - initial node server
+[2015-11-18 18:41:32.683] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 19:21:40.066] [INFO] gbtouch - initial node server
+[2015-11-18 19:21:40.069] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-18 19:48:29.697] [INFO] gbtouch - initial node server
+[2015-11-18 19:48:29.699] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 14:15:37.358] [INFO] gbtouch - initial node server
+[2015-11-19 14:15:37.361] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 14:18:22.604] [INFO] gbtouch - initial node server
+[2015-11-19 14:18:22.607] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 14:19:37.182] [INFO] gbtouch - initial node server
+[2015-11-19 14:19:37.185] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 14:20:01.025] [INFO] gbtouch - initial node server
+[2015-11-19 14:20:01.027] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 14:20:29.328] [INFO] gbtouch - initial node server
+[2015-11-19 14:20:29.332] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 14:21:06.754] [INFO] gbtouch - initial node server
+[2015-11-19 14:21:06.757] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 14:21:45.530] [INFO] gbtouch - initial node server
+[2015-11-19 14:21:45.533] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 14:22:27.201] [INFO] gbtouch - initial node server
+[2015-11-19 14:22:27.204] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 15:01:15.231] [INFO] gbtouch - initial node server
+[2015-11-19 15:01:15.234] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 15:02:37.903] [INFO] gbtouch - initial node server
+[2015-11-19 15:02:37.906] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 15:02:40.428] [INFO] gbtouch - initial node server
+[2015-11-19 15:02:40.431] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 15:06:51.695] [INFO] gbtouch - initial node server
+[2015-11-19 15:06:51.698] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 15:33:03.089] [INFO] gbtouch - initial node server
+[2015-11-19 15:33:03.092] [DEBUG] gbtouch - Listening on port 15339
+[2015-11-19 15:33:44.219] [INFO] gbtouch - initial node server
+[2015-11-19 15:33:44.222] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:00:06.004] [INFO] gbtouch - initial node server
+[2015-11-19 16:00:06.007] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:00:49.791] [INFO] gbtouch - initial node server
+[2015-11-19 16:00:49.794] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:02:33.732] [INFO] gbtouch - 保存失败
+[2015-11-19 16:03:32.664] [INFO] gbtouch - 保存失败
+[2015-11-19 16:03:37.013] [INFO] gbtouch - initial node server
+[2015-11-19 16:03:37.016] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:03:43.655] [INFO] gbtouch - 保存失败
+[2015-11-19 16:09:45.705] [INFO] gbtouch - initial node server
+[2015-11-19 16:09:45.708] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:14:18.116] [INFO] gbtouch - initial node server
+[2015-11-19 16:14:18.119] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:15:22.217] [INFO] gbtouch - initial node server
+[2015-11-19 16:15:22.220] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:15:30.410] [INFO] gbtouch - 保存失败
+[2015-11-19 16:17:23.183] [INFO] gbtouch - initial node server
+[2015-11-19 16:17:23.186] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:17:23.610] [INFO] gbtouch - 保存失败
+[2015-11-19 16:17:26.801] [INFO] gbtouch - initial node server
+[2015-11-19 16:17:26.803] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:17:41.332] [INFO] gbtouch - 保存失败
+[2015-11-19 16:18:44.876] [INFO] gbtouch - initial node server
+[2015-11-19 16:18:44.878] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:18:45.027] [INFO] gbtouch - 保存失败
+[2015-11-19 16:18:48.908] [INFO] gbtouch - initial node server
+[2015-11-19 16:18:48.911] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:19:37.777] [INFO] gbtouch - initial node server
+[2015-11-19 16:19:37.780] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:19:50.847] [INFO] gbtouch - 保存失败
+[2015-11-19 16:21:16.157] [INFO] gbtouch - initial node server
+[2015-11-19 16:21:16.160] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:21:16.487] [INFO] gbtouch - 保存失败
+[2015-11-19 16:21:20.137] [INFO] gbtouch - initial node server
+[2015-11-19 16:21:20.139] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:21:25.993] [INFO] gbtouch - 保存失败
+[2015-11-19 16:21:52.366] [INFO] gbtouch - initial node server
+[2015-11-19 16:21:52.369] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:21:52.745] [INFO] gbtouch - 保存失败
+[2015-11-19 16:42:11.807] [INFO] gbtouch - initial node server
+[2015-11-19 16:42:11.810] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:43:22.932] [INFO] gbtouch - initial node server
+[2015-11-19 16:43:22.935] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:45:42.966] [INFO] gbtouch - initial node server
+[2015-11-19 16:45:42.969] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:47:37.705] [INFO] gbtouch - initial node server
+[2015-11-19 16:47:37.708] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:50:01.514] [INFO] gbtouch - initial node server
+[2015-11-19 16:50:01.517] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:50:39.190] [INFO] gbtouch - initial node server
+[2015-11-19 16:50:39.193] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:52:14.352] [INFO] gbtouch - initial node server
+[2015-11-19 16:52:14.354] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:53:00.602] [INFO] gbtouch - initial node server
+[2015-11-19 16:53:00.604] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:53:59.826] [INFO] gbtouch - initial node server
+[2015-11-19 16:53:59.829] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:54:27.474] [INFO] gbtouch - initial node server
+[2015-11-19 16:54:27.477] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:54:33.817] [INFO] gbtouch - 保存失败
+[2015-11-19 16:56:33.963] [INFO] gbtouch - 保存失败
+[2015-11-19 16:57:16.167] [INFO] gbtouch - initial node server
+[2015-11-19 16:57:16.170] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:57:26.067] [INFO] gbtouch - initial node server
+[2015-11-19 16:57:26.070] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 16:57:31.819] [INFO] gbtouch - 保存失败
+[2015-11-19 16:58:41.214] [INFO] gbtouch - initial node server
+[2015-11-19 16:58:41.217] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:00:42.985] [INFO] gbtouch - initial node server
+[2015-11-19 17:00:42.988] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:00:56.818] [INFO] gbtouch - initial node server
+[2015-11-19 17:00:56.821] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:11:50.982] [INFO] gbtouch - initial node server
+[2015-11-19 17:11:50.985] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:13:47.915] [INFO] gbtouch - initial node server
+[2015-11-19 17:13:47.917] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:13:48.155] [INFO] gbtouch - 保存失败
+[2015-11-19 17:14:56.325] [INFO] gbtouch - initial node server
+[2015-11-19 17:14:56.328] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:16:32.398] [INFO] gbtouch - initial node server
+[2015-11-19 17:16:32.400] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:16:39.477] [INFO] gbtouch - 保存失败
+[2015-11-19 17:18:39.259] [INFO] gbtouch - 保存失败
+[2015-11-19 17:26:13.153] [INFO] gbtouch - initial node server
+[2015-11-19 17:26:13.155] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:28:22.034] [INFO] gbtouch - initial node server
+[2015-11-19 17:28:22.037] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:28:32.031] [INFO] gbtouch - 保存失败
+[2015-11-19 17:30:32.341] [INFO] gbtouch - 保存失败
+[2015-11-19 17:30:41.283] [INFO] gbtouch - initial node server
+[2015-11-19 17:30:41.286] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:32:06.628] [INFO] gbtouch - initial node server
+[2015-11-19 17:32:06.631] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:32:25.537] [INFO] gbtouch - 保存失败
+[2015-11-19 17:32:55.789] [INFO] gbtouch - initial node server
+[2015-11-19 17:32:55.792] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:32:56.078] [INFO] gbtouch - 保存失败
+[2015-11-19 17:33:31.170] [INFO] gbtouch - initial node server
+[2015-11-19 17:33:31.173] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:33:38.835] [INFO] gbtouch - 保存失败
+[2015-11-19 17:34:26.782] [INFO] gbtouch - initial node server
+[2015-11-19 17:34:26.784] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:34:26.883] [INFO] gbtouch - 保存失败
+[2015-11-19 17:34:32.669] [INFO] gbtouch - initial node server
+[2015-11-19 17:34:32.672] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:34:39.092] [INFO] gbtouch - 保存失败
+[2015-11-19 17:36:39.362] [INFO] gbtouch - 保存失败
+[2015-11-19 17:38:19.639] [INFO] gbtouch - initial node server
+[2015-11-19 17:38:19.642] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:38:29.040] [INFO] gbtouch - 保存失败
+[2015-11-19 17:40:27.355] [INFO] gbtouch - initial node server
+[2015-11-19 17:40:27.358] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:40:27.768] [INFO] gbtouch - 保存失败
+[2015-11-19 17:40:51.022] [INFO] gbtouch - initial node server
+[2015-11-19 17:40:51.024] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:41:00.222] [INFO] gbtouch - 保存失败
+[2015-11-19 17:42:05.538] [INFO] gbtouch - initial node server
+[2015-11-19 17:42:05.541] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:42:05.834] [INFO] gbtouch - 保存失败
+[2015-11-19 17:42:29.113] [INFO] gbtouch - initial node server
+[2015-11-19 17:42:29.116] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:42:39.187] [INFO] gbtouch - 保存失败
+[2015-11-19 17:43:24.971] [INFO] gbtouch - initial node server
+[2015-11-19 17:43:24.974] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:43:25.370] [INFO] gbtouch - 保存失败
+[2015-11-19 17:43:36.009] [INFO] gbtouch - initial node server
+[2015-11-19 17:43:36.012] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:43:43.150] [INFO] gbtouch - 保存失败
+[2015-11-19 17:45:21.406] [INFO] gbtouch - initial node server
+[2015-11-19 17:45:21.408] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:45:23.227] [INFO] gbtouch - initial node server
+[2015-11-19 17:45:23.230] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:47:26.334] [INFO] gbtouch - initial node server
+[2015-11-19 17:47:26.337] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:47:39.300] [INFO] gbtouch - 保存失败
+[2015-11-19 17:49:39.610] [INFO] gbtouch - 保存失败
+[2015-11-19 17:50:08.463] [INFO] gbtouch - initial node server
+[2015-11-19 17:50:08.466] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:50:17.860] [INFO] gbtouch - 保存失败
+[2015-11-19 17:52:10.023] [INFO] gbtouch - initial node server
+[2015-11-19 17:52:10.026] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:54:35.371] [INFO] gbtouch - initial node server
+[2015-11-19 17:54:35.374] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:54:49.133] [INFO] gbtouch - initial node server
+[2015-11-19 17:54:49.136] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:56:27.468] [INFO] gbtouch - initial node server
+[2015-11-19 17:56:27.471] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:57:17.096] [INFO] gbtouch - initial node server
+[2015-11-19 17:57:17.098] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:57:41.118] [INFO] gbtouch - initial node server
+[2015-11-19 17:57:41.121] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 17:57:56.729] [INFO] gbtouch - initial node server
+[2015-11-19 17:57:56.732] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:17:19.877] [INFO] gbtouch - initial node server
+[2015-11-19 18:17:19.879] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:22:41.719] [INFO] gbtouch - initial node server
+[2015-11-19 18:22:41.722] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:23:58.254] [INFO] gbtouch - initial node server
+[2015-11-19 18:23:58.257] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:39:56.584] [INFO] gbtouch - initial node server
+[2015-11-19 18:39:56.587] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:42:03.933] [INFO] gbtouch - initial node server
+[2015-11-19 18:42:03.936] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:42:40.564] [INFO] gbtouch - initial node server
+[2015-11-19 18:42:40.567] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:43:18.133] [INFO] gbtouch - initial node server
+[2015-11-19 18:43:18.135] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:45:31.011] [INFO] gbtouch - initial node server
+[2015-11-19 18:45:31.013] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:51:01.303] [INFO] gbtouch - initial node server
+[2015-11-19 18:51:01.306] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:51:50.312] [INFO] gbtouch - 保存失败
+[2015-11-19 18:52:23.499] [INFO] gbtouch - initial node server
+[2015-11-19 18:52:23.502] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:52:23.797] [INFO] gbtouch - 保存失败
+[2015-11-19 18:52:50.984] [INFO] gbtouch - initial node server
+[2015-11-19 18:52:50.987] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:53:04.533] [INFO] gbtouch - 保存失败
+[2015-11-19 18:53:30.689] [INFO] gbtouch - initial node server
+[2015-11-19 18:53:30.692] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:53:30.808] [INFO] gbtouch - 保存失败
+[2015-11-19 18:53:33.724] [INFO] gbtouch - initial node server
+[2015-11-19 18:53:33.727] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:54:19.217] [INFO] gbtouch - initial node server
+[2015-11-19 18:54:19.219] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:56:25.458] [INFO] gbtouch - initial node server
+[2015-11-19 18:56:25.460] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:56:39.560] [INFO] gbtouch - initial node server
+[2015-11-19 18:56:39.563] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 18:57:08.410] [INFO] gbtouch - initial node server
+[2015-11-19 18:57:08.413] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:01:59.992] [INFO] gbtouch - initial node server
+[2015-11-19 19:01:59.994] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:02:27.861] [INFO] gbtouch - initial node server
+[2015-11-19 19:02:27.864] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:03:17.344] [INFO] gbtouch - initial node server
+[2015-11-19 19:03:17.347] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:05:57.459] [INFO] gbtouch - initial node server
+[2015-11-19 19:05:57.462] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:13:19.893] [INFO] gbtouch - initial node server
+[2015-11-19 19:13:19.896] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:15:17.026] [INFO] gbtouch - initial node server
+[2015-11-19 19:15:17.029] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:15:33.709] [INFO] gbtouch - initial node server
+[2015-11-19 19:15:33.712] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:17:17.999] [INFO] gbtouch - initial node server
+[2015-11-19 19:17:18.002] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:23:52.774] [INFO] gbtouch - initial node server
+[2015-11-19 19:23:52.777] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:27:33.721] [INFO] gbtouch - initial node server
+[2015-11-19 19:27:33.723] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:36:11.854] [INFO] gbtouch - initial node server
+[2015-11-19 19:36:11.856] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:37:02.313] [INFO] gbtouch - initial node server
+[2015-11-19 19:37:02.316] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:38:32.964] [INFO] gbtouch - initial node server
+[2015-11-19 19:38:32.967] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:40:25.762] [INFO] gbtouch - initial node server
+[2015-11-19 19:40:25.764] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:42:11.383] [INFO] gbtouch - initial node server
+[2015-11-19 19:42:11.385] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:43:16.532] [INFO] gbtouch - initial node server
+[2015-11-19 19:43:16.534] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:43:48.505] [INFO] gbtouch - initial node server
+[2015-11-19 19:43:48.508] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:45:37.149] [INFO] gbtouch - initial node server
+[2015-11-19 19:45:37.152] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:46:48.190] [INFO] gbtouch - initial node server
+[2015-11-19 19:46:48.192] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:47:34.768] [INFO] gbtouch - initial node server
+[2015-11-19 19:47:34.771] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:47:51.027] [INFO] gbtouch - initial node server
+[2015-11-19 19:47:51.029] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:48:58.956] [INFO] gbtouch - initial node server
+[2015-11-19 19:48:58.958] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:49:05.757] [INFO] gbtouch - initial node server
+[2015-11-19 19:49:05.760] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:50:49.477] [INFO] gbtouch - initial node server
+[2015-11-19 19:50:49.480] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:54:28.602] [INFO] gbtouch - initial node server
+[2015-11-19 19:54:28.605] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:54:56.120] [INFO] gbtouch - initial node server
+[2015-11-19 19:54:56.123] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:55:32.630] [INFO] gbtouch - initial node server
+[2015-11-19 19:55:32.633] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 19:58:57.480] [INFO] gbtouch - initial node server
+[2015-11-19 19:58:57.483] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:00:07.837] [INFO] gbtouch - initial node server
+[2015-11-19 20:00:07.840] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:00:47.028] [INFO] gbtouch - 保存失败
+[2015-11-19 20:00:59.358] [INFO] gbtouch - initial node server
+[2015-11-19 20:00:59.361] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:00:59.627] [INFO] gbtouch - 保存失败
+[2015-11-19 20:01:03.811] [INFO] gbtouch - initial node server
+[2015-11-19 20:01:03.814] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:01:03.961] [INFO] gbtouch - 保存失败
+[2015-11-19 20:01:06.806] [INFO] gbtouch - initial node server
+[2015-11-19 20:01:06.809] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:13:13.341] [INFO] gbtouch - initial node server
+[2015-11-19 20:13:13.343] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:13:59.498] [INFO] gbtouch - initial node server
+[2015-11-19 20:13:59.501] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:14:17.554] [INFO] gbtouch - initial node server
+[2015-11-19 20:14:17.556] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:15:46.393] [INFO] gbtouch - initial node server
+[2015-11-19 20:15:46.396] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:16:02.628] [INFO] gbtouch - initial node server
+[2015-11-19 20:16:02.631] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:16:38.971] [INFO] gbtouch - initial node server
+[2015-11-19 20:16:38.973] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:17:34.619] [INFO] gbtouch - initial node server
+[2015-11-19 20:17:34.622] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:20:07.509] [INFO] gbtouch - initial node server
+[2015-11-19 20:20:07.512] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:27:27.717] [INFO] gbtouch - initial node server
+[2015-11-19 20:27:27.720] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:28:46.258] [INFO] gbtouch - initial node server
+[2015-11-19 20:28:46.261] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:29:31.751] [INFO] gbtouch - initial node server
+[2015-11-19 20:29:31.753] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:31:16.831] [INFO] gbtouch - initial node server
+[2015-11-19 20:31:16.834] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:32:51.909] [INFO] gbtouch - initial node server
+[2015-11-19 20:32:51.912] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-19 20:34:37.683] [INFO] gbtouch - initial node server
+[2015-11-19 20:34:37.686] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 10:29:08.059] [INFO] gbtouch - initial node server
+[2015-11-20 10:29:08.062] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 10:36:26.807] [INFO] gbtouch - initial node server
+[2015-11-20 10:36:26.810] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 10:39:22.217] [INFO] gbtouch - initial node server
+[2015-11-20 10:39:22.220] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 10:40:00.787] [INFO] gbtouch - 保存失败
+[2015-11-20 10:40:36.749] [INFO] gbtouch - initial node server
+[2015-11-20 10:40:36.752] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 10:40:36.956] [INFO] gbtouch - 保存失败
+[2015-11-20 10:40:40.001] [INFO] gbtouch - initial node server
+[2015-11-20 10:40:40.004] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 11:02:18.183] [INFO] gbtouch - initial node server
+[2015-11-20 11:02:18.185] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 11:08:54.524] [INFO] gbtouch - initial node server
+[2015-11-20 11:08:54.527] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 13:42:08.233] [INFO] gbtouch - initial node server
+[2015-11-20 13:42:08.236] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 13:56:20.320] [INFO] gbtouch - initial node server
+[2015-11-20 13:56:20.323] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 14:10:05.895] [INFO] gbtouch - initial node server
+[2015-11-20 14:10:05.898] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 14:43:46.658] [INFO] gbtouch - initial node server
+[2015-11-20 14:43:46.660] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 14:51:28.805] [INFO] gbtouch - initial node server
+[2015-11-20 14:51:28.808] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 15:03:29.155] [INFO] gbtouch - initial node server
+[2015-11-20 15:03:29.158] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 15:05:22.179] [INFO] gbtouch - initial node server
+[2015-11-20 15:05:22.182] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 15:05:50.041] [INFO] gbtouch - initial node server
+[2015-11-20 15:05:50.044] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 15:12:59.690] [INFO] gbtouch - initial node server
+[2015-11-20 15:12:59.693] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 15:13:35.593] [INFO] gbtouch - initial node server
+[2015-11-20 15:13:35.596] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 15:20:10.718] [INFO] gbtouch - initial node server
+[2015-11-20 15:20:10.721] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 15:22:06.364] [INFO] gbtouch - initial node server
+[2015-11-20 15:22:06.367] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 15:29:33.641] [INFO] gbtouch - initial node server
+[2015-11-20 15:29:33.644] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 15:39:55.574] [INFO] gbtouch - initial node server
+[2015-11-20 15:39:55.577] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 15:53:11.599] [INFO] gbtouch - initial node server
+[2015-11-20 15:53:11.602] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 15:53:20.729] [INFO] gbtouch - initial node server
+[2015-11-20 15:53:20.732] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 17:16:52.830] [INFO] gbtouch - initial node server
+[2015-11-20 17:16:52.832] [DEBUG] gbtouch - Listening on port 3001
+[2015-11-20 17:17:46.908] [INFO] gbtouch - initial node server
+[2015-11-20 17:17:46.911] [DEBUG] gbtouch - Listening on port 3001

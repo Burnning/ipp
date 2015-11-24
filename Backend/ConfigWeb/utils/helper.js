@@ -12,7 +12,7 @@ var helper = {
     initial: function () {
         this.createDirectory(path.join(dirPath, 'logs'));
         //var ftpPath = path.join(config.ftpPath);
-        this.createDirectory(config.ftpPath);
+//        this.createDirectory(config.ftpPath);
         //this.createDirectory(config.downloadPath);
         logger.info('initial node server');
     },

@@ -1,0 +1,75 @@
+//
+   Created by tommy_2 on 2015/11/18.
+
+extend ../layout
+
+block content
+  #templateModal.modal.fade(tabindex='-1',role='dialog', aria-labelledby="meetingLabel",aria-hidden="true")
+    div.modal-dialog.modal-xs
+      div.modal-content
+        div.modal-body
+          div.row
+            div.col-sm-2.col-sm-offset-2
+              div.input-group(style="margin-top:5px;margin-bottom:20px")
+                span
+                  b 名称：
+              div.input-group(style="margin-bottom:20px")
+                span
+                  b 类型：
+              div.input-group(style="margin-bottom:20px")
+                span
+                  b 图片路径
+            div.col-sm-5
+              input#temName.form-control(style="margin-bottom:7px")
+              input#temType.form-control(style="margin-bottom:7px")
+              input#temImg.form-control(style="margin-bottom:7px")
+            div.col-sm-12
+              div.col-sm-4.col-sm-offset-1
+                input(type="checkbox")#addVideo
+                span 监控
+              div.col-sm-1.col-sm-offset-5
+                span.glyphicon.glyphicon-plus#v_add(style="display:none")
+
+            div#videoGroup.col-sm-12(style="display:none")
+              //.vGroup
+                //div.col-sm-5
+                //  div.input-group
+                //    span.input-group-addon 名称
+                //    input.form-control.vG_Name
+                //div.col-sm-7
+                //  div.input-group
+                //    span.input-group-addon 路径
+                //    input.form-control.vG_Url
+            div.col-sm-7.col-sm-offset-5
+              label.label.label-danger#showMess
+        div.modal-footer
+          div.row
+            div.btn-group.col-sm-offset-4
+              button.btn.btn-default#saveTem 保存
+              button.btn.btn-default(data-dismiss="modal") 关闭
+  div.tab-content.tabWhite
+    div#temid(style="display:none")= id
+    div.tab-pane.active
+      div.panel.panel50
+        button.btn.btn-primary(data-toggle="modal" data-target="#templateModal" data-backdrop="static") 新建
+        button.btn.btn-default(onclick="saveall()") 保存
+      table.table.table-striped#pattern
+        thead
+          tr
+            th(style="width:20%") 名称
+            th(style="width:20%") 类型
+            th(style="width:20%") 图片路径
+            th(style="width:20%") 探头数量
+            th(style="width:20%")
+        tbody#patternBody
+          each item,index in models||[]
+            tr(id="#{item.id}")
+              td.tName=item.name
+              td.tType=item.type
+              td.tImage=item.center_image_url
+              td.tVideo=item.video_count
+              td
+                button.btn.btn-primary.btn-xs() 修改
+                button.btn.btn-danger.btn-xs(onclick="tempDel('#{item.id}')") 删除
+block script
+  script(type='text/javascript',src='/js/datatype/index.js')

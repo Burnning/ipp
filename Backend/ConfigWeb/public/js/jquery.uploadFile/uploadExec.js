@@ -18,7 +18,7 @@ function uploadOthers(id){
                 break;
         }
         var options = {
-            url: '/meeting/upload/'+id+'/file',
+            url: '/dimension/upload/'+id+'/file',
             dataType: 'json',
 //            formData: {update: type},
 //            acceptFileTypes:opt.acceptFileTypes,
@@ -55,7 +55,7 @@ function uploadOthers(id){
                     $("#fileProgress").modal('hide');
                     //if($(p).data('biaozhi')==="edit-upload"){
                     var url = window.location.href;
-                    if(url.indexOf('meeting/edit')>-1){
+                    if(url.indexOf('dimension/edit')>-1){
                         url=url+"&tab=1";
                         window.location.href = url;
                     }else{
@@ -75,7 +75,7 @@ function uploadOthers(id){
 //上传文件
 function uploadFiles(id){
     var options = {
-        url:'/meeting/upload/'+id+'/file',
+        url:'/dimension/upload/'+id+'/file',
         dataType: 'json',
         maxFileSize: 5000000,
         autoUpload: true,
@@ -127,7 +127,7 @@ function uploadFiles(id){
                 //if($(p).data('biaozhi')==="edit-upload"){
                 var url = window.location.href;
                 setTimeout(function(){
-                    if(url.indexOf('meeting/edit')>-1){
+                    if(url.indexOf('dimension/edit')>-1){
                         url=url+"&tab=1";
                         window.location.href = url;
                     }else{

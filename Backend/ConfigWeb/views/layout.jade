@@ -3,31 +3,35 @@ html
   head
     meta(name='renderer' content='webkit')
     meta(http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1")
-    title 虹口法院
-    link(rel="stylesheet", href="/css/jquery-ui.min.css")
+    title 一体化呈现
     link(rel='stylesheet', href='/css/bootstrap.min.css')
     link(rel='stylesheet', href='/css/style.css')
     link(rel='stylesheet', href='/css/menu.css')
     link(rel='stylesheet', href='/css/modal.css')
+    link(rel='stylesheet', href='/css/scroll.css')
     script(type='text/javascript',src='/js/jquery-2.1.4.min.js')
-    //script(type='text/javascript',src='/js/jquery-ui.min.js')
-    //script(type='text/javascript',src='/js/jquery.uploadFile/jquery.ui.widget.js')
-    //script(type='text/javascript',src='/js/bootstrap.min.js')
-    //script(type='text/javascript',src='/js/underscore-min.js')
-    //script(type='text/javascript',src='/js/common.js')
+    script(type='text/javascript',src='/js/bootstrap.min.js')
+    script(type='text/javascript',src='/js/common.js')
     block script
   body
     div.container-fluid
       div.row
-        div.logobg.logo
-          img(src="/img/logo.png" height="50px")
+        div.logobg
+          span.spanT SHGBIT
+          span.spanP 一体化呈现配置系统
         div.col-sm-2.mp0
           ul.menu#contain
             li
-              a#meeting(href="/meeting") 会议
-              li
-                a#device(href="/device") 终端
-              li
-                a#vote(href="/vote") 合议
+              a#param(href="/param") 基础参数
+            li
+              a#dim(href="/dimension") 维度
+            li
+              a#pat(href="/pattern") 模型
+            li
+              a#datatype(href="/datatype") 数据类型
+            li
+              a#source(href="/source") 数据源
+
+
         div.col-sm-10(style="margin:15px 0 50px 0")
             block content
